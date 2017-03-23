@@ -26,12 +26,29 @@
 		"mobile-first",
 		"responsive",
 	],
-  	"ignore": [
-    ".gitattributes",
+  	        "ignore": [
+                ".gitattributes",
 		".travis.yml",
-    "LICENSE",
-    "README.md",
-    "beauter.min.css",
+                "LICENSE",
+                "README.md",
+                 "beauter.min.css",
 		"package.json",
 	],
+		"scripts": {
+		"start": "run-p build watch serve",
+		"build": "run-s clean sass autoprefixer banner",
+		"clean": "rimraf dist",
+		"sass": "node-sass --output-style expanded src/milligram.sass dist/milligram.css && node-sass --output-style compressed beauter.css beauter.min.css",
+		"autoprefixer": "postcss -u autoprefixer --no-map.inline --autoprefixer.browsers \"last 1 versions\" -r *.css",
+		"banner": "banner-cli dist/*.css",
+		"watch": "onchange src -- run-p build",
+		"serve": "browser-sync start --no-notify -s test --ss dist -f dist",
+		"backstop": "run-s build && run-p serve compare",
+		"reference": "backstop reference --configPath=backstop.conf.js",
+		"compare": "backstop test --configPath=backstop.conf.js",
+		"lint": "sass-lint -c .sasslintrc src --verbose --no-exit && eslint test -c styled && editorconfig-tools check .",
+		"ava": "nyc ava",
+		"test": "run-s build lint ava",
+		"precommit": "run-p test"
+	}
 }
