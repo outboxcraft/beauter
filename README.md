@@ -8,16 +8,23 @@
 [![Join the chat at https://gitter.im/outboxcraft/beauter](https://badges.gitter.im/outboxcraft/beauter.svg)](https://gitter.im/outboxcraft/beauter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![Build status](https://ci.appveyor.com/api/projects/status/n5k5xkq8odcyxmec?svg=true)](https://ci.appveyor.com/project/ramdeoshubham/beauter)
+[![Dependencies Status](https://david-dm.org/outboxcraft/beauter.svg)](https://david-dm.org/outboxcraft/beauter)
+![Bower version](https://img.shields.io/bower/v/beauter.svg)
+[![npm (scoped)](https://img.shields.io/npm/v/@outboxcraft/beauter.svg)](https://www.npmjs.com/package/@outboxcraft/beauter)
 
 ## Why it's awesome
 
-Beauter is a very simple and minimal css web desigining framework which is very lightweight, **4KB gzipped!**, but has all the required elements and is easy to start with, designed for responsiveness across devices, smaller footprint but faster, and higher productivity with less code. It is opensource and released under MIT License so you can use do whatever you want with it as well make it better by contributing. Hope you like it! 
+Beauter provides a minimal range of beautiful elements and styles which makes it easier to start with a cleaner and faster development. It's Mobile First, responsive across various devices with a very small footprint, **4kb gzipped!**, which makes it faster. Hope you like it! ♥ 
 
 ## Quick Start
 
-[Download the latest release.](https://github.com/outboxcraft/beauter/archive/master.zip)
+You can get Beauter by many ways
+- [Download the latest release](https://github.com/outboxcraft/beauter/archive/master.zip)
+- Install with [npm](https://www.npmjs.com): `npm install beauter`
+- Install with [Bower](https://bower.io): `bower install beauter`
 
-Add the Style Sheet
+Then just add the Style Sheet to your web page
 ```
 <link rel="stylesheet" type="text/css" href="beauter.min.css">
 ```
