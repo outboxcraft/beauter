@@ -1,12 +1,13 @@
-<a align="center" href="https://beauter.outboxcraft.com"><img width="100%" src="http://beauter.outboxcraft.com/img/banner.png" alt="Beauter - A Simple framework for Beautiful Sites"></a>
+<p align="center">
+<h1 align="center"><img src="http://beauter.outboxcraft.com/img/chry.svg" width="100px">Beauter</h1><p align="center">A simple framework for faster and beautiful responsive sites<br>
+    <a href="http://beauter.outboxcraft.com"><strong>Visit Beauter &raquo;</strong></a></p>
+</p>
 
-> A Simple framework for Beautiful Sites.
+<br>
 
 [![Join the chat at https://gitter.im/outboxcraft/beauter](https://badges.gitter.im/outboxcraft/beauter.svg)](https://gitter.im/outboxcraft/beauter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-
-Current Beta version 0.2, Visit [Beauter](http://beauter.outboxcraft.com)
 
 ## Why it's awesome
 
