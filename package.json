@@ -1,0 +1,37 @@
+{
+  "name": "beauter",
+  "version": "0.2",
+  "description": "A simple framework for faster and beautiful responsive sites",
+  "homepage": "http://beauter.outboxcraft.com",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/outboxcraft/beauter.git"
+  },
+  "license": "MIT",
+  "author": "Shubham Ramdeo <ramdeo.shubham@gmail.com>",
+  "main": "beauter.css",
+  "engines": {
+		"node": ">=4"
+	},
+	"keywords": [
+		"css",
+		"css3",
+		"front-end",
+		"framework",
+		"html",
+		"html5",
+		"kickstarter",
+		"responsive",
+		"mobile",
+		"mobile-first",
+		"responsive",
+	],
+  	"ignore": [
+    ".gitattributes",
+		".travis.yml",
+    "LICENSE",
+    "README.md",
+    "beauter.min.css",
+		"package.json",
+	],
+}
