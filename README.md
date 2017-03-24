@@ -9,6 +9,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![Build status](https://ci.appveyor.com/api/projects/status/n5k5xkq8odcyxmec?svg=true)](https://ci.appveyor.com/project/ramdeoshubham/beauter)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7c606309c90a4d4bbdf6079a7db22212)](https://www.codacy.com/app/Outboxcraft/beauter?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=outboxcraft/beauter&amp;utm_campaign=Badge_Grade)
 [![Dependencies Status](https://david-dm.org/outboxcraft/beauter.svg)](https://david-dm.org/outboxcraft/beauter)
 ![Bower version](https://img.shields.io/bower/v/beauter.svg)
 [![npm (scoped)](https://img.shields.io/npm/v/@outboxcraft/beauter.svg)](https://www.npmjs.com/package/@outboxcraft/beauter)
