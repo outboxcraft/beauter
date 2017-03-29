@@ -2,6 +2,6 @@ language: node_js
 node_js:
   - "0.11"
 install:
- - npm install PrettyCSS -g
+ - npm install -g csslint
 script:
- - prettycss beauter.css
+ - csslint --warnings=ids beauter.css
