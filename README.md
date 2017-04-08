@@ -35,7 +35,7 @@ To learn more, please checkout beauter [documentation](http://beauter.outboxcraf
 
 ## Contributing
 
-Beauter has just started and needs a lot of changes to become perfect. You can make Beauter more beautiful by contributing. Please follow these [recomendations](http://beauter.outboxcraft.com/docs/methodology). You can also share Beauter with your friends or on social sites to make more people aware of it. This will help a lot.
+Beauter has just started and needs a lot of changes to become perfect. You can make Beauter more beautiful by contributing. Please follow these [recommendations](http://beauter.outboxcraft.com/docs/methodology). You can also share Beauter with your friends or on social sites to make more people aware of it. This will help a lot.
 
 ## Creator
 
