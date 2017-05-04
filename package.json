@@ -1,6 +1,6 @@
 {
   "name": "@outboxcraft/beauter",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A simple framework for faster and beautiful responsive sites.",
   "main": "beauter.css",
   "scripts": {
