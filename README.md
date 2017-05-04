@@ -17,13 +17,13 @@
 
 ## Why it's awesome
 
-Beauter provides a minimal range of beautiful elements and styles which makes it easier to start with a cleaner and faster development. It's Mobile First, responsive across various devices with a very small footprint, **4kb gzipped!**, which makes it faster. Hope you like it! ♥ 
+Beauter provides a minimal range of beautiful elements and styles in pure vanilla CSS which makes it easier to start with a cleaner and faster development. It's Mobile First, responsive across various devices with a very small footprint, **4kb gzipped!**, which makes it faster. Hope you like it! ♥ 
 
 ## Quick Start
 
 You can get Beauter by many ways
 - [Download the latest release](https://github.com/outboxcraft/beauter/archive/master.zip)
-- Install with [npm](https://www.npmjs.com): `npm install beauter`
+- Install with [npm](https://www.npmjs.com): `npm install @outboxcraft/beauter`
 - Install with [Bower](https://bower.io): `bower install beauter`
 
 Then just add the Style Sheet to your web page
@@ -43,4 +43,4 @@ Beauter is designed with ♥ by **[Shubham Ramdeo](http://ramdeoshubham.com)**.
 
 ## License
 
-Copyright 2016-present, Shubham Ramdeo. Code released under the [MIT License](http://beauter.outboxcraft.com/docs/license). Docs released under [Creative Commons](http://beauter.outboxcraft.com/docs/license)
+Copyright 2016-present, Shubham Ramdeo. Code released under the [MIT License](https://github.com/outboxcraft/beauter/blob/master/LICENSE). Docs released under [Creative Commons](http://beauter.outboxcraft.com/docs/license).
