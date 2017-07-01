@@ -1,0 +1,145 @@
+---
+layout: doc
+meta: |
+
+    <title>Typography - Beauter | Documentation</title>
+    <meta name="description" content="Different typography and styles available with Beauter.">
+    <meta name="keywords" content="typo,style,font,css,html,framework,website,design,beauter,responsive">
+
+
+---
+
+<hr>
+<h1>Typography</h1><hr>
+<p>Beauter retains the basic HTML formatting while adding them a bit of beauty.</p>
+
+<h3>Paragraph</h3>
+<p>Beauter preserve the basic HTML formatting elements while making each of them cross browser and responsive</p>
+<strong>base</strong><blockquote>
+<pre>
+&lt;p> ... &lt;/p>
+</pre></blockquote>
+<strong>EXAMPLE</strong>
+<pre><code><p>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. Pellentesque sit amet ultricies ante. Nullam molestie euismod iaculis. Sed pellentesque mauris eleifend mattis tempor. Aenean id tempus urna. Donec rutrum mauris et erat accumsan porttitor.&lt;/p>
+&lt;p class="_low">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. Pellentesque sit amet ultricies ante. Nullam molestie euismod iaculis. Sed pellentesque mauris eleifend mattis tempor. Aenean id tempus urna. Donec rutrum mauris et erat accumsan porttitor.&lt;/p>
+&lt;p class = "_high">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. Pellentesque sit amet ultricies ante. Nullam molestie euismod iaculis. Sed pellentesque mauris eleifend mattis tempor. Aenean id tempus urna. Donec rutrum mauris et erat accumsan porttitor.&lt;/p>
+</p></code></pre>
+<hr>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. Pellentesque sit amet ultricies ante. Nullam molestie euismod iaculis. Sed pellentesque mauris eleifend mattis tempor. Aenean id tempus urna. Donec rutrum mauris et erat accumsan porttitor.</p>
+<p class="_low">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. Pellentesque sit amet ultricies ante. Nullam molestie euismod iaculis. Sed pellentesque mauris eleifend mattis tempor. Aenean id tempus urna. Donec rutrum mauris et erat accumsan porttitor.</p>
+<p class="_high">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. Pellentesque sit amet ultricies ante. Nullam molestie euismod iaculis. Sed pellentesque mauris eleifend mattis tempor. Aenean id tempus urna. Donec rutrum mauris et erat accumsan porttitor.</p>
+<hr>
+
+
+<h3>Headings</h3>
+<p>Beauter adds the secondary headings which can be very useful for adding sub titles while grouing.</p>
+
+<strong>base</strong><blockquote>
+<pre>
+&lt;h*> ... &lt;/h>
+&lt;h*> ... &lt;small>...&lt;/small> ...&lt;/h>
+</pre></blockquote>
+<strong>EXAMPLE</strong>
+
+<pre><code><p>
+&lt;h1>Primary&lt;small>Secondary&lt;/small>&lt;/h1>
+&lt;h2>Primary&lt;small>Secondary&lt;/small>&lt;/h2>
+&lt;h3>Primary&lt;small>Secondary&lt;/small>&lt;/h3>
+&lt;h4>Primary&lt;small>Secondary&lt;/small>&lt;/h4>
+&lt;h5>Primary&lt;small>Secondary&lt;/small>&lt;/h5>
+&lt;h6>Primary&lt;small>Secondary&lt;/small>&lt;/h6>
+</p></code></pre><hr>
+<h1>Primary<small>Secondary</small></h1>
+<h2>Primary<small>Secondary</small></h2>
+<h3>Primary<small>Secondary</small></h3>
+<h4>Primary<small>Secondary</small></h4>
+<h5>Primary<small>Secondary</small></h5>
+<h6>Primary<small>Secondary</small></h6>
+<hr>
+<h3>Basic text styles</h3>
+<pre><code><p>
+&lt;p>Base &lt;strong>Bolded&lt;/strong>
+&lt;a href="http://outboxcraft.com/beauter">Link&lt;/a>
+&lt;small>Smaller&lt;/small>
+&lt;del>Deleted&lt;/del>
+&lt;em>Italicized&lt;/em>
+&lt;a>Colored&lt;/a>
+&lt;u>Underlined&lt;/u>
+&lt;mark>Highlighted&lt;/mark>&lt;/p>
+&lt;code>printf("Hello, Horld!\n");&lt;/code>
+&lt;kbd>Ctrl&lt;/kbd>
+&lt;/p>
+</p></code></pre>
+
+
+<p>Base <strong>Bolded</strong>
+<a href="http://outboxcraft.com/beauter">Link</a>
+<small>Smaller</small>
+<del>Deleted</del>
+<em>Italicized</em>
+<a>Colored</a>
+<u>Underlined</u>
+<mark>Highlighted</mark>
+<code>printf("Hello, Horld!\n");</code>
+<kbd>Ctrl</kbd>
+
+
+
+<h3>Showing codes</h3>
+<p>Codes and Buttons can be shown using the above styles as <code>printf("Hello, Horld!\n");</code>
+<kbd>Ctrl</kbd>. But beauter can also pre - format source code. You can easily add any third party syntax highlighter to differentiate the syntax.</p>
+<pre><code><p>
+&lt;pre>&lt;code>&lt;p>
+#include &lt;stdio.h>
+int main()
+{
+	printf("Hello, World!\n");
+	return 0;
+}&lt;/p>&lt;/code>
+&lt;/pre>
+</pre></code></p>
+<pre><code><p>
+#include &lt;stdio.h>
+int main()
+{
+	printf("Hello, World!\n");
+	return 0;
+}</p></code>
+</pre>
+
+<p>This also allows the black board effects<p>
+
+<pre><code><p>
+EXAMPLE:
+<pre><code><p>
+#include &lt;stdio.h>
+int main()
+{
+	printf("Hello, World!\n");
+	return 0;
+}
+<pre><code  class="_cream"><p>
+#include &lt;stdio.h>
+int main()
+{
+	printf("Hello, World!\n");
+	return 0;
+}</p></code></pre></p></code></pre></p></code></pre>
+
+<h3>BlockQuotes</h3>
+<p>Beauter can draw beautiful blockquote along with a footer and a cite.</p>
+
+<pre><code><p>
+&lt;blockquote>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. Pellentesque sit amet ultricies ante. Nullam molestie euismod iaculis. Sed pellentesque mauris eleifend mattis tempor. Aenean id tempus urna. Donec rutrum mauris et erat accumsan porttitor.
+&lt;footer>Someone famous in &lt;cite title="Source Title">Source Title&lt;/cite>
+&lt;/footer>
+&lt;/blockquote>
+</p></code></pre>
+
+	<blockquote>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. Pellentesque sit amet ultricies ante. Nullam molestie euismod iaculis. Sed pellentesque mauris eleifend mattis tempor. Aenean id tempus urna. Donec rutrum mauris et erat accumsan porttitor.<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote>
+
+
+

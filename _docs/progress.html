@@ -1,0 +1,116 @@
+---
+layout: doc
+meta: |
+
+    <title>Progress - Beauter | Documentation</title>
+    <meta name="description" content="Classes to build different kinds of Progress Bars with Beauter.">
+    <meta name="keywords" content="progress,bars,css,html,framework,website,design,beauter,responsive">
+
+
+---
+
+<hr><h1>Progress Bars</h1><hr>
+<p>Beauter can show your progress with beautiful bars.</p>
+<strong>base</strong>
+<blockquote>
+<pre>progressbar</pre>
+</blockquote>
+<strong>object</strong>
+<blockquote>
+<pre>-bar
+-label</pre>
+</blockquote>
+
+<strong>Example</strong>
+<pre><code>&lt;div class="progressbar _round">
+  &lt;div class="-bar _primary _round" style="width:80%">
+  &lt;/div>
+&lt;/div>
+&lt;br>
+&lt;div class="progressbar _dark">
+  &lt;div class="-bar _danger" style="width:50%">
+  &lt;div class="-label">50%&lt;/div>
+  &lt;/div>
+&lt;/div>
+&lt;br>
+&lt;div class="progressbar _box">
+  &lt;div class="-bar _box _warning" style="width:25%">
+  &lt;div class="-label">25%&lt;/div>
+  &lt;/div>
+&lt;/div></code></pre>
+<strong>Result</strong>
+<div class="progressbar _round">
+  <div class="-bar _primary _round" style="width:80%">
+  </div>
+</div>
+<br>
+<div class="progressbar _dark">
+  <div class="-bar _danger" style="width:50%">
+  <div class="-label">50%</div>
+  </div>
+</div>
+<br>
+<div class="progressbar _box">
+  <div class="-bar _box _warning" style="width:25%">
+  <div class="-label">25%</div>
+  </div>
+</div>
+<br>
+<strong>Dynamic</strong>
+<div id="myProgress" class="progressbar">
+  <div id="myBar" class="-bar" >
+  <div id="mylabel" class="-label">10%</div>
+  </div>
+</div>
+<br>
+<button onclick="move()">Click Me</button>
+
+
+
+
+
+<pre><code class="_black">&lt;div id="myProgress" class="progressbar">
+  &lt;div id="myBar" class="-bar">
+  &lt;div id="mylabel" class="-label">10%&lt;/div>
+  &lt;/div>
+&lt;/div>
+&lt;br>
+
+&lt;button onclick="move()">Click Me&lt;/button>
+
+&lt;script>
+function move() {
+    var elem = document.getElementById("myBar"); 
+    var width = 10;
+    var id = setInterval(frame, 10);
+    function frame() {
+        if (width >= 100) {
+            clearInterval(id);
+        } else {
+            width++; 
+            elem.style.width = width + '%'; 
+            document.getElementById("mylabel").innerHTML = width * 1 + '%';
+        }
+    }
+}
+&lt;/script></code></pre>
+
+
+<script>
+function move() {
+    var elem = document.getElementById("myBar"); 
+    var width = 10;
+    var id = setInterval(frame, 10);
+    function frame() {
+        if (width >= 100) {
+            clearInterval(id);
+        } else {
+            width++; 
+            elem.style.width = width + '%'; 
+            document.getElementById("mylabel").innerHTML = width * 1 + '%';
+        }
+    }
+}
+</script>
+
+

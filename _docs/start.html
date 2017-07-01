@@ -1,0 +1,70 @@
+---
+layout: doc
+meta: |
+
+    <title>Get Started - Beauter | Documentation</title>
+    <meta name="description" content="Getting Started, Downloading, Installing and Making your first web page with Beauter.">
+    <meta name="keywords" content="download,install,use,css,html,framework,website,design,beauter,responsive">
+
+---
+
+<hr>
+<h1>Getting Started</h1><hr>
+<h3>Downloading Beauter</h3>
+<p>There are many ways to get Beauter</p>
+<blockquote><ul>
+<li>Download the <a href="https://github.com/outboxcraft/beauter/archive/master.zip">Latest Release</a></li>
+<li>Install with npm <code>npm install @outboxcraft/beauter</code></li>
+<li>Install with Bower <code>bower install beauter</code></li>
+</ul>
+</blockquote>
+
+<p>You will get <strong>beauter.css</strong>, the complete source to study and modify the beauter, and <strong>beauter.min.css</strong>, the minified version of the stylesheet to use for your websites.</p>
+
+<hr>
+<h3>HTML 5</h3>
+<p>Beauter is build to meet the requirements of the modern internet. To get the best out of Beauter, make sure your HTML document is declared HTML5 type.</p>
+<pre><code>&lt;!DOCTYPE html>
+...
+&lt;/html>
+</code></pre>
+
+<hr>
+<h3>Setting Viewport</h3>
+<p>Beauter is a responsive framework and built keeping <strong>Mobile First</strong> in mind. This responsiveness for smaller devices can be achieved by setting up the correct viewport in the <code>&lt;head></code> section of your HTML document.</p>
+
+<pre><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"></code></pre>
+
+<p>The property <code>user-scalable=no</code> is optional and will disable zooming and make your webpage to behave like a native app on the mobile screen.</p>
+<hr>
+
+<h3>Adding Fonts</h3>
+<p>Beauter uses and recommends Google's Roboto Fonts but you can add whatever you want in the <code>&lt;head></code> section of your HTML document.</p>
+<pre ><code>&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+</code></pre>
+<hr>
+<h3>Adding Beauter</h3>
+<p>Beauter can be added simply by adding the stylesheet.</p>
+<pre><code>&lt;link rel="stylesheet" type="text/css" href="beauter.min.css" /></code></pre>
+<hr>
+<h3>Basic Beauter Document</h3>
+<p>A basic Beauter document after following everything written above will look like this.</p>
+<pre><code>&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+	&lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+	&lt;link rel="stylesheet" type="text/css" href="beauter.min.css" />
+&lt;/head>
+
+&lt;body>
+...
+	&lt;script>
+		...
+	&lt;/script>
+&lt;/body>
+
+&lt;/html>
+</code></pre>
+<p>Scripts, if any, should be added at the end. It reduces loading time.</p>
+

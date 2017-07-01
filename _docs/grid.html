@@ -1,0 +1,117 @@
+---
+layout: doc
+meta: |
+
+    <title>Grid - Beauter | Documentation</title>
+    <meta name="description" content="The grid system to make your content responsive for various devices.">
+    <meta name="keywords" content="row,column,grid,css,html,framework,website,design,beauter,responsive">
+
+
+---
+
+<hr>
+<h1>Grid</h1><hr>
+<p>Beauter supports the responsive grid system, using the most common 12 column grid system. The structure of the grid is that a row consists of 12 columns and their size and existence is controlled by media queries. That is, its dependent on the size of the device hence it makes it responsive.</p>
+
+<p>For general responsiveness, you can use the 'm' prefix, e.g. <code>class="col m4"</code> which operates for the screen size more than that of a tablet. For larger screens such as desktops, you can use the 'd' prefix. If you want to force a column to a particular size, use 'f' prefix'.</p>
+<p>By default, beauter adds a 15px padding in the columns. This can be set to zero by adding <code>_noPadding</code> to the specific columns or by using <code>.col {padding:0px}</code>
+<p>If you are currently using a mobile device, please tilt your device to landscape mode to see the columns distinctly</p>
+<style>
+.colm {background-color:#F1F1F1;text-align:center;border:2px solid white;padding:0px}
+.rowm {margin-bottom:10px;}
+.m {color:pink;}  
+}
+
+</style>
+
+<div class="row rowm">
+<div class="col m1 colm">1</div>
+<div class="col m1 colm">2</div>
+<div class="col m1 colm">3</div>
+<div class="col m1 colm">4</div>
+<div class="col m1 colm">5</div>
+<div class="col m1 colm">6</div>
+<div class="col m1 colm">7</div>
+<div class="col m1 colm">8</div>
+<div class="col m1 colm">9</div>
+<div class="col m1 colm">10</div>
+<div class="col m1 colm">11</div>
+<div class="col m1 colm">12</div>
+</div>
+
+
+<div class="row rowm">
+<div class="col m1 colm">1</div>
+</div>
+<div class="row rowm">
+<div class="col m2 colm">2</div>
+</div>
+<div class="row rowm">
+<div class="col m3 colm">3</div>
+</div>
+<div class="row rowm">
+<div class="col m4 colm">4</div>
+</div>
+<div class="row rowm">
+<div class="col m5 colm">5</div>
+</div>
+<div class="row rowm">
+<div class="col m6 colm">6</div>
+</div>
+<div class="row rowm">
+<div class="col m7 colm">7</div>
+</div>
+<div class="row rowm">
+<div class="col m8 colm">8</div>
+</div>
+<div class="row rowm">
+<div class="col m9 colm">9</div>
+</div>
+<div class="row rowm">
+<div class="col m10 colm">10</div>
+</div>
+
+<div class="row rowm">
+<div class="col m11 colm">11</div>
+</div>
+
+<div class="row rowm">
+<div class="col m12 colm">12</div>
+</div>
+
+<pre><code><p>
+&lt;div class="row">
+	&lt;div class="col m3">col-3&lt;/div>
+	&lt;div class="col m9">col-9&lt;/div>
+&lt;/div>
+&lt;div class="row">
+	&lt;div class="col m3">col-3&lt;/div>
+	&lt;div class="col m3">col-3&lt;/div>
+	&lt;div class="col m3">col-3&lt;/div>
+	&lt;div class="col m3">col-3&lt;/div>
+&lt;/div>
+&lt;div class="row">
+	&lt;div class="col m2">col-2&lt;/div>
+	&lt;div class="col m6">col-6&lt;/div>
+	&lt;div class="col m4">col-4&lt;/div>
+&lt;/div>
+</p></code></pre>
+
+<div class="row rowm">
+<div class="col m3 colm">col-3</div>
+<div class="col m9 colm">col-9</div>
+</div>
+<div class="row rowm">
+<div class="col m3 colm">col-3</div>
+<div class="col m3 colm">col-3</div>
+<div class="col m3 colm">col-3</div>
+<div class="col m3 colm">col-3</div>
+</div>
+<div class="row rowm">
+<div class="col m2 colm">col-2</div>
+<div class="col m6 colm">col-6</div>
+<div class="col m4 colm">col-4</div>
+</div>
+
+
+

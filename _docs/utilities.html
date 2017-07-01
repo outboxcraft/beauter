@@ -1,0 +1,233 @@
+---
+layout: doc
+meta: |
+
+    <title>Utilities - Beauter | Documentation</title>
+    <meta name="description" content="The utilities and layers available in Beauter to customize your elements.">
+    <meta name="keywords" content="utilities,css,html,framework,website,design,beauter,responsive">
+
+
+---
+
+<style>button,.button{	text-transform: lowercase;}.c{padding:1px;border:1px solid grey;border-radius:5px; }</style>
+
+
+<hr><h1>Utilities</h1><hr>
+<p>Beauter adds some inbuilt CSS utilities to make it easier to use. These utilities can be used independently as <code>class = " _<i>utility</i>"</code> inside their tags and divs with any element. Multiple utilities can be mixed and used to make the element more customized.</p>
+<blockquote>
+<pre>
+_width100
+_width75 
+_width50
+_max-full-width
+_min-full-width
+</pre></blockquote>
+<div class='container c' >
+<div class="alert _box _cream _width100">_width100</div>
+<div class="alert _box _cream _width75">_width75</div>
+<div class="alert _box _cream _width50">_width50</div>
+<div class="alert _box _cream _max-full-width">_max-full-width</div>
+<div class="alert _box _cream _min-full-width">_min-full-width</div>
+</div>
+
+<blockquote>
+<pre>
+_floatRight
+_floatLeft
+</pre></blockquote>
+
+<div class='container c'>
+<div class="alert _box _cream _floatRight">_floatRight</div>
+<div class="alert _box _cream _floatLeft">_floatLeft</div>
+</div>
+
+<blockquote>
+<pre>_wrap</pre></blockquote>
+<div class='container c'>
+<pre class="_wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. Pellentesque sit amet ultricies ante. Nullam molestie euismod iaculis. Sed pellentesque mauris eleifend mattis tempor. Aenean id tempus urna. Donec rutrum mauris et erat accumsan porttitor.</pre>
+</div>
+
+<blockquote>
+<pre>_alignLeft 
+_alignRight
+_alignCenter</pre></blockquote>
+
+
+<div class='container c'>
+<p class="_alignLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. </p>
+<p class="_alignCenter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. </p>
+<p class="_alignRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. </p>
+</div>
+
+
+
+<blockquote>
+<pre>
+_debugmode</pre></blockquote>
+<div class='container c'>
+<button onclick="changeClass()" class="_shadow _dark">Turn on _debugmode</button></div>
+<script type="text/javascript">
+    
+function changeClass() {
+if ( document.getElementsByTagName("body")[0].className.match(/(?:^|\s)_debugmode(?!\S)/) ) {changeClassoff();} else {changeClasson();}}
+
+
+function changeClasson()
+    {
+       document.getElementsByTagName("body")[0].className += "_debugmode";
+    }
+    function changeClassoff()
+    {
+       document.getElementsByTagName("body")[0].className =
+   document.getElementsByTagName("body")[0].className.replace
+      ( /(?:^|\s)_debugmode(?!\S)/g , '' )
+    }
+</script>
+
+
+
+<blockquote>
+<pre>_gray
+_blur</pre></blockquote>
+<div class='container c'>
+<div class="row">
+<div class="col f4"><img class="_gray" src="/img/pink2.jpg"></div>
+<div class="col f4"><img class="_blur" src="/img/pink2.jpg"></div>
+</div></div>
+
+<blockquote>
+<pre>_clear
+</pre></blockquote>
+
+<div class='container c'>
+<br>
+
+<div style="background:#eee;">div
+<span style="background:yellow;float:left">left</span>
+<span style="background:yellow;float:right">right</span>
+</div>
+
+<br>
+
+
+<br>
+
+<div style="background:#eee;" class="_clear">div
+<span style="background:yellow;float:left">left</span>
+<span style="background:yellow;float:right">right</span>
+</div>
+
+<br>
+</div>
+
+
+<blockquote>
+<pre>
+_hidden
+_hide-mobile
+_hide-phablet
+_hide-tablet
+_hide-desktop
+_hide-widescreen</pre></blockquote>
+
+
+<div class="container c">
+<div class="alert _box _cream _hidden">_hidden</div>
+<div class="alert _box _cream _hide-mobile">_hide-mobile</div>
+<div class="alert _box _cream _hide-phablet">_hide-phablet</div>
+<div class="alert _box _cream _hide-tablet">_hide-tablet</div>
+<div class="alert _box _cream _hide-desktop">_hide-desktop</div>
+<div class="alert _box _cream _hide-widescreen">_hide-widescreen</div>
+</div>
+
+
+<!-- blockquote>
+<pre>_is-clipped
+_is-overlay</pre></blockquote>
+<div class="container c">
+
+<div class="alert _box _cream _is-overlay">_is-overlay</div>
+<div class="alert _box _cream _is-clipped">_is-clipped</div>
+
+</div  -->
+
+
+<blockquote>
+<pre>_disabled
+_noReaction
+_unselectable</pre></blockquote>
+<div class="container c">
+<a class="button _primary _disabled">_disabled</a>
+<a class="button _primary _noReaction">_noReaction</a>
+<div class="_cream _unSelectable" style="margin:10px">AN unSelectable text</div>
+</div>
+
+
+
+
+<blockquote>
+<pre>_noMargin
+_noPadding</pre></blockquote>
+<div class="container c">
+<div class="alert _cream _noMargin " style="margin:10px">_noMargin</div>
+<div class="alert _cream _noPadding" style="margin:10px">_noPadding</div>
+</div>
+
+
+
+<blockquote>
+<pre>_round
+_box
+_shadow
+_dark
+_cream
+_purple
+_danger
+_success
+_info
+_warning
+_active
+_disabled
+_primary
+_xsmall
+_small
+_large
+_xlarge</pre></blockquote>
+
+<div class='container c'>
+<button>default</button>
+<button class="_round">_round</button>
+<button class="_box">_box</button>
+<button class="_shadow">_shadow</button>
+<button class="_dark">_dark</button>
+<button class="_cream">_cream</button>
+<button class="_purple">_purple</button>
+<button class="_danger">_danger</button>
+<button class="_success">_success</button>
+<button class="_info">_info</button>
+<button class="_warning">_warning</button>
+<button class="_active">_active</button>
+<button class="_disabled">_disabled</button>
+<button class="_primary">_primary</button>
+<button class="_xsmall">_xsmall</button>
+<button class="_small">_small</button>
+<button class="_large">_large</button>
+<button class="_xlarge">_xlarge</button>
+</div>
+
+<blockquote>
+<pre>_transparent</pre></blockquote>
+<div class='container c _cream'>
+<input type="text" class="_transparent">
+</div>
+
+<blockquote>
+<pre>_truncate
+_expandable-truncate</pre></blockquote>
+<div class='container c'>
+<p class="_truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. </p>
+<p class="_expandable-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. </p>
+</div>
+
+
+

@@ -1,0 +1,89 @@
+---
+layout: doc
+meta: |
+
+    <title>Alerts - Beauter | Docmentation</title>
+    <meta name="description" content="Using Beauter alerts and Counters to make notifications.">
+    <meta name="keywords" content="alert,counter,welcome,css,html,framework,website,design,beauter,responsive">
+
+
+---
+
+<hr><h1>Alert Messages</h1><hr>
+<p>Beauter can add various types of alert messages which are dynamic. Click on the "x" symbol to close the alert message.</p>
+
+
+<strong>base</strong>
+
+<blockquote>
+<pre>
+alert
+</pre></blockquote>
+
+<strong>object</strong><blockquote>
+<pre>
+-close
+</pre></blockquote>
+
+<p>Using modifiers like _primary, _success, _shadow, _box etc will further shape and alter the design of the alert boxes. Learn more <a href="/docs/utilities">here</a>.</p>
+<p><strong>Example</strong></p>
+
+<p><strong>The static alert boxes</strong></p>
+<div class="alert"> A simple static fixed alert box.
+</div>
+
+<pre><code>&lt;div class="alert">
+A simple static fixed alert box.
+&lt;/div></code></pre>
+
+<p><strong>Dynamic Alert Boxes</strong></p>
+
+<div class="alert  _warning _shadow _box">
+  <span class="-close">&times;</span>
+  <strong>Woah!</strong> A dynamic alert box with close button.
+</div>
+
+<pre><code>&lt;div class="alert _warning _shadow _box">
+  &lt;span class="-close">&times;&lt;/span>
+  &lt;strong>Woah!&lt;/strong> A dynamic alert box with close button.
+&lt;/div></code></pre>
+
+<p><strong>Script to manage every alert on a page</strong></p>
+
+<pre><code>&lt;script>
+var close = document.getElementsByClassName("-close");
+var i;
+for (i = 0; i < close.length; i++) {
+    close[i].onclick = function(){
+        var div = this.parentElement;
+        div.style.opacity = "0";       
+        setTimeout(function(){ div.style.display = "none"; }, 600);
+    }
+}
+&lt;/script></code></pre>
+
+<hr><h1>Counter</h1><hr>
+<p>Counters can be used to show numerical counts like number of notifications etc.</p>
+<pre><code>&lt;span class="count">3&lt;/span></code></pre>
+<span class="count">3</span>
+<script>
+
+var close = document.getElementsByClassName("-close");
+var i;
+
+for (i = 0; i < close.length; i++) {
+   
+    close[i].onclick = function(){
+
+               var div = this.parentElement;
+
+        
+        div.style.opacity = "0";
+
+       
+        setTimeout(function(){ div.style.display = "none"; }, 600);
+    }
+}
+</script>
+
+

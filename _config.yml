@@ -1,0 +1,5 @@
+permalink: /:slug/
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:slug/

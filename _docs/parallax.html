@@ -1,0 +1,37 @@
+---
+layout: doc
+meta: |
+
+    <title>Parallax - Beauter | Documentation</title>
+    <meta name="description" content="Beautiful Parallax effects of background and containers with Beauter.">
+    <meta name="keywords" content="parallax,css,html,framework,website,design,beauter,responsive">
+
+
+---
+
+<hr><h1>Parallax</h1><hr>
+<p>Beauter can make responsive parallax effects along with styled captions that can be used to make fancy landing pages.</p>
+
+<strong>base</strong><blockquote><pre>bg-parallax</pre></blockquote>
+<strong>object</strong><blockquote><pre>-front</pre></blockquote>
+<strong>Example</strong>
+<div class="bg-parallax" style="background-image: url('/img/pink.jpg')">
+<h1 class="_alignCenter -front">Caption</h1></div>
+<pre><code>&lt;div class="bg-parallax" style="background-image: url('/img/pink.jpg')">
+&lt;div class="-front">
+	&lt;h1 class="_alignCenter>Caption&lt;/h1>
+&lt;/div>
+&lt;/div></code></pre>
+<p>Parallax are not always shown on every mobile devices. They are slower usually and difficult to achieve with pure CSS. Although not recommended, by adding this following script, all the <code>bg-parallax</code> will start showing similar scrolling effect on mobile devices also.</p>
+<pre><code>var b = document.querySelectorAll(".bg-parallax");
+[].slice.call(b).forEach(function(a) {
+    a.style.backgroundSize = document.getElementsByTagName("body")[0].offsetHeight + "px";
+    a.style.backgroundAttachment = "initial";
+    a.style.backgroundRepeat = "initial"
+});
+window.onscroll = function() {
+    [].slice.call(b).forEach(function(a) {
+        a.style.backgroundPosition = "50% " + window.pageYOffset + "px"
+    })
+};
+</code></pre> 

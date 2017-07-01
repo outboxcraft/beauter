@@ -1,0 +1,77 @@
+---
+layout: doc
+meta: |
+
+    <title>Forms - Beauter | Documentation</title>
+    <meta name="description" content="Responsive form and input elements.">
+    <meta name="keywords" content="form,input,css,html,framework,website,design,beauter,responsive">
+
+
+---
+
+<hr><h1>Forms</h1><hr>
+<p>Beauter adds responsiveness and effects while also preserving the basic functioning of forms by modifying the tags directly. All the standard HTML form elements are valid.</p> 
+<form>
+<fieldset>
+    <legend>Contact information:</legend>
+  <div class="row">
+    <div class="col m6">
+      <label for="Email">Enter email</label>
+      <input class="_full-width" type="email" placeholder="test@mail.com" id="Email">
+    </div>
+    <div class="col m6">
+      <label for="Input">Reason for contact</label>
+      <select class="_width100" id="Input">
+        <option value="Option 1">Help</option>
+        <option value="Option 2">Thanks</option>
+        <option value="Option 3">Support</option>
+      </select>
+    </div>
+  </div>
+  <label for="Message">Message</label>
+  <div class="col m12">
+<textarea class="_width100" placeholder="Your message.." id="Message"></textarea>
+</div>
+  <label for="Send">
+    <input type="checkbox" id="Send">
+    <span class="-label-body">Send a copy to yourself</span>
+</label>
+  <input class=" _primary button" type="submit" value="Submit">
+  <input class="button" type="reset" value="Reset">
+  <br>
+</fieldset>
+</form>
+<p>
+Wrap checkbox and radio inputs in a label with &lt;span class="-label-body">.</p>
+<pre><code>&lt;form>
+&lt;fieldset>
+    &lt;legend>Contact information:&lt;/legend>
+  &lt;div class="row">
+    &lt;div class="col m6">
+      &lt;label for="Email">Enter email&lt;/label>
+      &lt;input class="_full-width" type="email" placeholder="test@mail.com" id="Email">
+    &lt;/div>
+    &lt;div class="col m6">
+      &lt;label for="Input">Reason for contact&lt;/label>
+      &lt;select class="_width100" id="Input">
+        &lt;option value="Option 1">Help&lt;/option>
+        &lt;option value="Option 2">Thanks&lt;/option>
+        &lt;option value="Option 3">Support&lt;/option>
+      &lt;/select>
+    &lt;/div>
+  &lt;/div>
+  &lt;label for="Message">Message&lt;/label>
+  &lt;div class="col m12">
+  &lt;textarea class="_width100" placeholder="Your message.." id="Message">&lt;/textarea>
+  &lt;/div>
+  &lt;label for="Send">
+    &lt;input type="checkbox" id="Send">
+    &lt;span class="-label-body">Send a copy to yourself&lt;/span>
+&lt;/label>
+  &lt;input class=" _primary button" type="submit" value="Submit">
+  &lt;input class="button" type="reset" value="Reset">
+  &lt;br>
+&lt;/fieldset>
+&lt;/form></code></pre>
+
+
