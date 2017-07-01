@@ -1,7 +1,0 @@
-language: node_js
-node_js:
-  - "0.11"
-install:
- - npm install -g csslint
-script:
- - csslint --warnings=ids beauter.css
