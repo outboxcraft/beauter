@@ -1,0 +1,100 @@
+/*<<<---------- imgmodal ---------->>>*/
+
+.modalimg
+{
+    cursor: pointer;
+    transition: .3s;
+
+    border-radius: 5px;
+}
+
+.modalimg:hover
+{
+    opacity: .7;
+}
+
+.modal
+{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    display: none;
+    overflow: auto;
+
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.modal-content
+{
+    display: block;
+
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+}
+
+.caption
+{
+    display: block;
+
+    width: 80%;
+    max-width: 700px;
+    height: 150px;
+    margin: auto;
+    padding: 10px 0;
+
+    text-align: center;
+
+    color: #ccc;
+}
+
+.modal-content,
+.caption
+{
+    -webkit-animation-name: zoom;
+       -moz-animation-name: zoom;
+            animation-name: zoom;
+    -webkit-animation-duration: .6s;
+       -moz-animation-duration: .6s;
+            animation-duration: .6s;
+}
+
+@-webkit-keyframes zoom
+{
+    from
+    {
+        -webkit-transform: scale(0);
+    }
+    to
+    {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes zoom
+{
+    from
+    {
+        transform: scale(0);
+    }
+    to
+    {
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 750px)
+{
+    .modal-content
+    {
+        width: 100%;
+    }
+    /* 100% Image Width on Smaller Screens */
+}

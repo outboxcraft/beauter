@@ -1,0 +1,39 @@
+/*<<<---------- Media Elements ---------->>>*/
+
+svg:not(:root)
+{
+    overflow: hidden;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+
+    border-style: none;
+}
+
+.video
+{
+    display: block;
+
+    max-width: 100%;
+    height: auto;
+}
+
+.-circle
+{
+    border-radius: 100%;
+}
+
+.-round
+{
+    border-radius: 25%;
+}
+
+.-thumb
+{
+    padding: 5px;
+
+    border: 2px solid #d3d3d3;
+}

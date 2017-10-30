@@ -1,0 +1,362 @@
+/*<<<---------- Grid and Responsive Classes ---------->>>*/
+
+.row::after
+{
+    display: block;
+    clear: both;
+
+    content: '';
+}
+
+.container:after,
+.row:after
+{
+    display: table;
+    clear: both;
+
+    content: '';
+}
+
+.container
+{
+    position: relative;
+
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container table
+{
+    overflow-x: auto;
+}
+
+
+/* For mobile phones: */
+
+.col
+{
+    float: left;
+
+    width: 100%;
+    padding: 15px;
+}
+
+.col:first-child
+{
+    margin-left: 0;
+}
+
+
+/* For devices larger than 400px */
+
+@media (min-width: 400px)
+{
+    .container
+    {
+        width: 85%;
+        padding: 0;
+    }
+}
+
+
+/* For devices larger than 550px */
+
+@media only screen and (min-width: 550px)
+{
+    /*for tablets*/
+    .container
+    {
+        width: 80%;
+    }
+    .m1
+    {
+        width: 8.33%;
+    }
+    .m2
+    {
+        width: 16.66%;
+    }
+    .m3
+    {
+        width: 25%;
+    }
+    .m4
+    {
+        width: 33.33%;
+    }
+    .m5
+    {
+        width: 41.66%;
+    }
+    .m6
+    {
+        width: 50%;
+    }
+    .m7
+    {
+        width: 58.33%;
+    }
+    .m8
+    {
+        width: 66.66%;
+    }
+    .m9
+    {
+        width: 75%;
+    }
+    .m10
+    {
+        width: 83.33%;
+    }
+    .m11
+    {
+        width: 91.66%;
+    }
+    .m12
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+.m1-5
+	{
+		width: 20%
+	}
+	.m2-5
+	{
+		width: 40%
+	}
+	.m3-5
+	{
+		width: 60%
+	}
+	.m4-5
+	{
+		width: 70%
+	}
+
+}
+
+@media only screen and (min-width: 750px)
+{
+    /* For desktop: */
+    .d1
+    {
+        width: 8.33%;
+    }
+    .d2
+    {
+        width: 16.66%;
+    }
+    .d3
+    {
+        width: 25%;
+    }
+    .d4
+    {
+        width: 33.33%;
+    }
+    .d5
+    {
+        width: 41.66%;
+    }
+    .d6
+    {
+        width: 50%;
+    }
+    .d7
+    {
+        width: 58.33%;
+    }
+    .d8
+    {
+        width: 66.66%;
+    }
+    .d9
+    {
+        width: 75%;
+    }
+    .d10
+    {
+        width: 83.33%;
+    }
+    .d11
+    {
+        width: 91.66%;
+    }
+    .d12
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+	.d1-5
+	{
+		width: 20%
+	}
+	.d2-5
+	{
+		width: 40%
+	}
+	.d3-5
+	{
+		width: 60%
+	}
+	.d4-5
+	{
+		width: 70%
+	}
+
+}
+
+
+/*.forced*/
+
+@media only screen
+{
+    .f1
+    {
+        width: 8.33%;
+    }
+    .f2
+    {
+        width: 16.66%;
+    }
+    .f3
+    {
+        width: 25%;
+    }
+    .f4
+    {
+        width: 33.33%;
+    }
+    .f5
+    {
+        width: 41.66%;
+    }
+    .f6
+    {
+        width: 50%;
+    }
+    .f7
+    {
+        width: 58.33%;
+    }
+    .f8
+    {
+        width: 66.66%;
+    }
+    .f9
+    {
+        width: 75%;
+    }
+    .f10
+    {
+        width: 83.33%;
+    }
+    .f11
+    {
+        width: 91.66%;
+    }
+    .f12
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+		.f1-5
+	{
+		width: 20%
+	}
+	.f2-5
+	{
+		width: 40%
+	}
+	.f3-5
+	{
+		width: 60%
+	}
+	.f4-5
+	{
+		width: 70%
+	}
+}
+
+
+/* Offsets */
+
+@media (min-width: 550px)
+{
+    .off-1
+    {
+        margin-left: 8.33%;
+    }
+    .off-2
+    {
+        margin-left: 16.66%;
+    }
+    .off-3
+    {
+        margin-left: 25%;
+    }
+    .off-4
+    {
+        margin-left: 33.33%;
+    }
+    .off-5
+    {
+        margin-left: 41.66%;
+    }
+    .off-6
+    {
+        margin-left: 50%;
+    }
+    .off-7
+    {
+        margin-left: 58.33%;
+    }
+    .off-8
+    {
+        margin-left: 66.66%;
+    }
+    .off-9
+    {
+        margin-left: 75%;
+    }
+    .off-10
+    {
+        margin-left: 83.33%;
+    }
+    .off-11
+    {
+        margin-left: 91.66%;
+    }
+
+		.off1-5
+	{
+		width: 20%
+	}
+	.off2-5
+	{
+		width: 40%
+	}
+	.off3-5
+	{
+		width: 60%
+	}
+	.off4-5
+	{
+		width: 70%
+	}
+
+}
+
+.jumbo
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    text-align: center;
+}

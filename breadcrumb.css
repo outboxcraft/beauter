@@ -1,0 +1,48 @@
+/*<<<---------- Breadcrumb ---------->>>*/
+
+ul.breadcrumb
+{
+    font-size: 17px;
+
+    margin: 0;
+    padding: 10px 16px;
+
+    list-style: none;
+
+    background-color: #eee;
+}
+
+ul.breadcrumb li
+{
+    display: inline;
+}
+
+ul.breadcrumb li + li:before
+{
+    padding: 8px;
+
+    content: '/\00a0';
+
+    /*color: black;*/
+}
+
+ul.breadcrumb li a
+{
+    text-decoration: none;
+
+    /*color: #0275d8;*/
+}
+
+ul.breadcrumb li:last-child
+{
+font-weight:bold}
+
+ul.breadcrumb li a:hover
+{
+    text-decoration: underline;
+
+    /*color: #01447e;*/
+}
+
+
+

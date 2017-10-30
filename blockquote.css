@@ -1,0 +1,23 @@
+/*<<<---------- Blockquote ---------->>>*/
+
+blockquote,
+dl,
+figure
+{
+    margin-bottom: 2.5rem;
+}
+
+blockquote
+{
+    margin: 5px;
+    padding-left: 10px;
+
+    border-left: 5px solid pink;
+}
+
+blockquote footer
+{
+    text-align: right;
+
+    color: #d3d3d3;
+}

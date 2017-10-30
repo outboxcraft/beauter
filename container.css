@@ -1,0 +1,55 @@
+
+
+.container:after
+{
+    display: table;
+    clear: both;
+
+    content: '';
+}
+
+.container
+{
+    position: relative;
+
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container table
+{
+    overflow-x: auto;
+}
+
+
+@media (min-width: 400px)
+{
+    .container
+    {
+        width: 85%;
+        padding: 0;
+    }
+}
+
+
+/* For devices larger than 550px */
+
+@media only screen and (min-width: 550px)
+{
+    /*for tablets*/
+    .container
+    {
+        width: 80%;
+    }
+
+}
+
+.jumbo
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    text-align: center;
+}

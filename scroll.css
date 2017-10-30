@@ -1,0 +1,38 @@
+.scroll-line{
+  height: 3px;
+  background: red;
+  width: 1%;
+  clear: both;
+  position: fixed;
+}
+
+
+
+
+/*
+
+//alert(window.outerHeight);
+//alert(document.body.clientHeight);
+
+(function() {
+
+  function Scrollify() {
+
+    var line = document.querySelector(".scroll-line"),
+        scrollpos = window.pageYOffset, 
+        docheight = document.body.clientHeight, 
+        winheight = window.outerHeight,
+        scrolled  = ( scrollpos/( docheight-winheight) )*100;
+      
+	  
+	  
+     line.style.width = (scrolled + '%');
+	 
+  }
+
+  window.addEventListener("scroll", Scrollify);
+
+})();
+
+
+*/

@@ -1,0 +1,118 @@
+/*<<<---------- Modal ---------->>>*/
+
+.modalbox-modal
+{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    display: none;
+    overflow: auto;
+
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.modalbox-modal-content
+{
+    position: relative;
+
+    width: 80%;
+    margin: auto;
+    padding: 10px !important;
+
+    -webkit-animation-name: animatetop;
+       -moz-animation-name: animatetop;
+            animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+       -moz-animation-duration: .4s;
+            animation-duration: .7s;
+
+    border: 1px solid #888;
+    border-radius: 5px;
+    background-color: #fefefe;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+}
+
+@-webkit-keyframes animatetop
+{
+    from
+    {
+        /*top: -300px;*/
+        opacity: 0;
+    }
+    to
+    {
+        /*top: 0;*/
+        opacity: 1;
+    }
+}
+
+@keyframes animatetop
+{
+    from
+    {
+        /*top: -300px;*/
+        opacity: 0;
+    }
+    to
+    {
+        /*top: 0;*/
+        opacity: 1;
+    }
+}
+
+.alert .-close
+{
+    line-height: 20px;
+
+    float: right;
+
+    margin-left: 15px;
+}
+
+.modal .-close
+{
+    font-size: 40px;
+
+    position: absolute;
+    top: 15px;
+    right: 35px;
+}
+
+.modalbox-modal-content .-close
+{
+    float: right;
+
+    color: #aaa;
+}
+
+.-close
+{
+    font-size: 22px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: .3s;
+
+    color: #f1f1f1;
+}
+
+.modal .-close:hover,
+.modal .-close:focus
+{
+    color: #bbb;
+}
+
+.-close:hover,
+.-close:focus
+{
+    text-decoration: none;
+
+    color: #000;
+}
