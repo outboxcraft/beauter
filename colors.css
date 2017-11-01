@@ -1,381 +1,187 @@
+._nightblue
+{background-color:#2c3e50 !important;
+border-color:#2c3e50 !important }
 
-._turquoise
-{color:#1abc9c !important }
+._indigo
+{background-color:#3f51b5!important;
+border-color:#3f51b5!important }
 
-._emerland
-{color:#2ecc71 !important }
+._yellow
+{background-color:#ffeb3b !important;
+border-color:#ffeb3b !important }
 
-._peterriver
-{color:#3498db !important }
+._pink
+{background-color:pink !important;
+border-color:pink !important}
 
-._amethyst
-{color:#9b59b6 !important }
+._black
+{background-color:#000 !important;
+border-color:#000 !important }
 
-._wetasphalt
-{color:#34495e !important }
+._brown
+{background-color:#795548 !important;
+border-color:#795548 !important }
 
-._greensea
-{color:#16a085 !important }
+._teal
+{background-color:#009688 !important;
+border-color:#009688 !important }
 
-._nephritis
-{color:#27ae60 !important }
+._info
+{background-color:#2196f3 !important;
+border-color:#2196f3 !important}
 
-._belizehole
-{color:#2980b9 !important }
+._primary
+{background-color:#33c3f0 !important;
+border-color:#33c3f0 !important}
 
-._wisteria
-{color:#8e44ad !important }
+._success
+{background-color:#90ee90 !important;
+border-color:#90ee90 !important}
 
-._midnightblue
+._dark
+{background-color:#333 !important;
+border-color:#333 !important}
+
+._cream
+{background-color:#f0f0f0 !important;
+border-color:#f0f0f0 !important}
+
+._white
+{background-color:#fff !important;
+border-color:#fff !important}
+
+._purple
+{background-color:#800080 !important;
+border-color:#800080 !important}
+
+._danger
+{background-color:#f44336 !important;
+border-color:#f44336 !important
+}
+
+._warning
+{background-color:#ff9800 !important
+border-color:#ff9800 !important;}
+
+._f-nightblue
 {color:#2c3e50 !important }
 
-._sunflower
-{color:#f1c40f !important }
-
-._carrot
-{color:#e67e22 !important }
-
-._alizarian
-{color:#e74c3c !important }
-
-._clouds
-{color:#ecf0f1 !important }
-
-._concrete
-{color:#95a5a6 !important }
-
-._orange
-{color:#f39c12 !important }
-
-._pumpkin
-{color:#d35400 !important }
-
-._pomegraate
-{color:#c0392b !important }
-
-._silver
-{color:#bdc3c7 !important }
-
-._asbestos
-{color:#7f8c8d !important }
-
-._Red
-{color:#f44336 !important }
-
-._Green
-{color:#4CAF50 !important }
-
-._Blue
-{color:#2196F3 !important }
-
-._Black
-{color:#000 !important }
-
-._Pink
-{color:#e91e63 !important }
-
-._Teal
-{color:#009688 !important }
-
-._Indigo
+._f-indigo
 {color:#3f51b5!important }
 
-._Brown
-{color:#795548 !important }
-
-._Orange
-{color:#ff9800 !important }
-
-._Cyan
-{color:#00bcd4 !important }
-
-._Purple
-{color:#9c27b0 !important }
-
-._Gray
-{color:#bbb !important }
-
-._Yellow
+._f-yellow
 {color:#ffeb3b !important }
 
-._Lime
-{color:#cddc39 !important }
+._f-pink
+{color:pink !important}
 
-._Khaki
-{color:#f0e68c !important }
+._f-black
+{color:#000 !important }
 
-._LightGray
-{color:#f1f1f1!important }
+._f-brown
+{color:#795548 !important }
 
-._amber
-{color:#00ffff !important }
+._f-teal
+{color:#009688 !important }
 
-._aqua
-{color:#ffc107 !important }
+._f-info
+{color:#2196f3 !important}
 
+._f-primary
+{color:#33c3f0 !important}
 
+._f-success
+{color:#90ee90 !important}
 
+._f-dark
+{color:#333 !important}
 
+._f-cream
+{color:#f0f0f0 !important}
 
+._f-white
+{color:#fff !important}
 
+._f-purple
+{color:#800080 !important}
 
+._f-danger
+{color:#f44336 !important}
 
+._f-warning
+{color:#ff9800 !important}
 
 
-
-
-
-
-._bg-turquoise
-{background-color:#1abc9c !important }
-
-._bg-emerland
-{background-color:#2ecc71 !important }
-
-._bg-peterriver
-{background-color:#3498db !important }
-
-._bg-amethyst
-{background-color:#9b59b6 !important }
-
-._bg-wetasphalt
-{background-color:#34495e !important }
-
-._bg-greensea
-{background-color:#16a085 !important }
-
-._bg-nephritis
-{background-color:#27ae60 !important }
-
-._bg-belizehole
-{background-color:#2980b9 !important }
-
-._bg-wisteria
-{background-color:#8e44ad !important }
-
-._bg-midnightblue
-{background-color:#2c3e50 !important }
-
-._bg-sunflower
-{background-color:#f1c40f !important }
-
-._bg-carrot
-{background-color:#e67e22 !important }
-
-._bg-alizarian
-{background-color:#e74c3c !important }
-
-._bg-clouds
-{background-color:#ecf0f1 !important }
-
-._bg-concrete
-{background-color:#95a5a6 !important }
-
-._bg-orange
-{background-color:#f39c12 !important }
-
-._bg-pumpkin
-{background-color:#d35400 !important }
-
-._bg-pomegraate
-{background-color:#c0392b !important }
-
-._bg-silver
-{background-color:#bdc3c7 !important }
-
-._bg-asbestos
-{background-color:#7f8c8d !important }
-
-._bg-Red
-{background-color:#f44336 !important }
-
-._bg-Green
-{background-color:#4CAF50 !important }
-
-._bg-Blue
-{background-color:#2196F3 !important }
-
-._bg-Black
-{background-color:#000 !important }
-
-._bg-Pink
-{background-color:#e91e63 !important }
-
-._bg-Teal
-{background-color:#009688 !important }
-
-._bg-Indigo
-{background-color:#3f51b5!important }
-
-._bg-Brown
-{background-color:#795548 !important }
-
-._bg-Orange
-{background-color:#ff9800 !important }
-
-._bg-Cyan
-{background-color:#00bcd4 !important }
-
-._bg-Purple
-{background-color:#9c27b0 !important }
-
-._bg-Gray
-{background-color:#bbb !important }
-
-._bg-Yellow
-{background-color:#ffeb3b !important }
-
-._bg-Lime
-{background-color:#cddc39 !important }
-
-._bg-Khaki
-{background-color:#f0e68c !important }
-
-._bg-LightGray
-{background-color:#f1f1f1!important }
-
-._bg-amber
-{background-color:#00ffff !important }
-
-._bg-aqua
-{background-color:#ffc107 !important }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-._bc-turquoise
-{border-color:#1abc9c !important }
-
-._bc-emerland
-{border-color:#2ecc71 !important }
-
-._bc-peterriver
-{border-color:#3498db !important }
-
-._bc-amethyst
-{border-color:#9b59b6 !important }
-
-._bc-wetasphalt
-{border-color:#34495e !important }
-
-._bc-greensea
-{border-color:#16a085 !important }
-
-._bc-nephritis
-{border-color:#27ae60 !important }
-
-._bc-belizehole
-{border-color:#2980b9 !important }
-
-._bc-wisteria
-{border-color:#8e44ad !important }
-
-._bc-midnightblue
+._bc-nightblue
 {border-color:#2c3e50 !important }
 
-._bc-sunflower
-{border-color:#f1c40f !important }
-
-._bc-carrot
-{border-color:#e67e22 !important }
-
-._bc-alizarian
-{border-color:#e74c3c !important }
-
-._bc-clouds
-{border-color:#ecf0f1 !important }
-
-._bc-concrete
-{border-color:#95a5a6 !important }
-
-._bc-orange
-{border-color:#f39c12 !important }
-
-._bc-pumpkin
-{border-color:#d35400 !important }
-
-._bc-pomegraate
-{border-color:#c0392b !important }
-
-._bc-silver
-{border-color:#bdc3c7 !important }
-
-._bc-asbestos
-{border-color:#7f8c8d !important }
-
-._bc-Red
-{border-color:#f44336 !important }
-
-._bc-Green
-{border-color:#4CAF50 !important }
-
-._bc-Blue
-{border-color:#2196F3 !important }
-
-._bc-Black
-{border-color:#000 !important }
-
-._bc-Pink
-{border-color:#e91e63 !important }
-
-._bc-Teal
-{border-color:#009688 !important }
-
-._bc-Indigo
+._bc-indigo
 {border-color:#3f51b5!important }
 
-._bc-Brown
-{border-color:#795548 !important }
-
-._bc-Orange
-{border-color:#ff9800 !important }
-
-._bc-Cyan
-{border-color:#00bcd4 !important }
-
-._bc-Purple
-{border-color:#9c27b0 !important }
-
-._bc-Gray
-{border-color:#bbb !important }
-
-._bc-Yellow
+._bc-yellow
 {border-color:#ffeb3b !important }
 
-._bc-Lime
-{border-color:#cddc39 !important }
+._bc-pink
+{border-color:pink !important}
 
-._bc-Khaki
-{border-color:#f0e68c !important }
+._bc-black
+{border-color:#000 !important }
 
-._bc-Light Gray
-{border-color:#f1f1f1!important }
+._bc-brown
+{border-color:#795548 !important }
 
-._bc-amber
-{border-color:#00ffff !important }
+._bc-teal
+{border-color:#009688 !important }
 
-._bc-aqua
-{border-color:#ffc107 !important }
+._bc-info
+{border-color:#2196f3 !important}
+
+._bc-primary
+{border-color:#33c3f0 !important}
+
+._bc-success
+{border-color:#90ee90 !important}
+
+._bc-dark
+{border-color:#333 !important}
+
+._bc-cream
+{border-color:#f0f0f0 !important}
+
+._bc-white
+{border-color:#fff !important}
+
+._bc-purple
+{border-color:#800080 !important}
+
+._bc-danger
+{border-color:#f44336 !important}
+
+._bc-warning
+{border-color:#ff9800 !important}
+
+._cream,
+._white,
+._yellow,
+._pink,
+._brown,
+{
+    color: #000 !important;
+}
+
+._nightblue,
+._black,
+._indigo,
+._primary,
+._purple,
+._grey,
+._dark,
+._active,
+._danger,
+._success,
+._teal,
+._info,
+._warning
+{
+    color: #fff !important;
+}
