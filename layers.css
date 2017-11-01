@@ -225,9 +225,9 @@
 
 ._bordered
 {
-    padding: 10px;
-
-    border: 1px solid !important;
+    border-style: solid;
+    border-width: 1px;
+    padding:5px;
 }
 
 ._noReaction
