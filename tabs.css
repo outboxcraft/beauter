@@ -15,6 +15,9 @@
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
+    margin-bottom:0;
+    margin-right:5px;
+    border-radius:0px;
 }
 
 /* Change background color of buttons on hover */
@@ -29,7 +32,7 @@
 
 /* Style the tab content */
 .tabcontent {
-transition:opacity .6s;opacity:1;
+transition:opacity .3s;opacity:1;
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
