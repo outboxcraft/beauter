@@ -121,10 +121,6 @@ ul.topnav .dropdown-content a
     }
     ul.topnav.responsive li.dropdown .dropdown-content
     {
-         display: inline-block !important;
-    }
-    ul.topnav.responsive li.dropdown .dropdown-content
-    {
          position: relative; 
     }
 	
