@@ -90,13 +90,13 @@ ul.topnav li.-icon
 
 ul.topnav .dropdown:hover .dropdown-content
 {
-	    z-index: 3 !important;
     display: block;
 }
 
+
+
 ul.topnav .dropdown-content a
 {
-	    z-index: 3 !important;
     display: block;
 }
 
@@ -119,9 +119,13 @@ ul.topnav .dropdown-content a
     {
          position: relative; 
     }
-	ul.topnav.responsive li.dropdown .dropdown-content
+    ul.topnav.responsive li.dropdown .dropdown-content
     {
          display: inline-block !important;
+    }
+    ul.topnav.responsive li.dropdown .dropdown-content
+    {
+         position: relative; 
     }
 	
     ul.topnav.responsive li.-icon
@@ -149,7 +153,7 @@ ul.topnav .dropdown-content a
 .dropdown-content
 {
     position: absolute;
-    z-index: 3 !important;
+    z-index: 2;
 
     display: none;
 
@@ -164,7 +168,7 @@ ul.topnav .dropdown-content a
     display: block;
 
     padding: 12px 16px;
-    z-index: 3 !important;
+
     transition: .3s;
     text-align: left;
     text-decoration: none;
@@ -174,15 +178,13 @@ ul.topnav .dropdown-content a
 
 .dropdown-content a:hover
 {
-	    z-index: 3 !important;
     color: #fff;
     background: rgba(0, 0, 0, .1);
 }
 
 .dropdown:hover .dropdown-content
 {
-	    z-index: 3 !important;
-    display: block;
+    display: inline-block !important;
 }
 
 
