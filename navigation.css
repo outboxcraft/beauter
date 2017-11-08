@@ -121,7 +121,7 @@ ul.topnav .dropdown-content a
     }
 	ul.topnav.responsive li.dropdown .dropdown-content
     {
-         position: fixed; 
+         display: inline-block !important;
     }
 	
     ul.topnav.responsive li.-icon
