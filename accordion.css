@@ -1,4 +1,4 @@
-button.accordion {
+button.accordion, .button.accordion {
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -11,11 +11,11 @@ button.accordion {
     transition: 0.4s;
 }
 
-button.accordion.active, button.accordion:hover {
+button.accordion.active, button.accordion:hover, .button.accordion.active, .button.accordion:hover{
     background-color: #ddd; 
 }
 
-div.panel {
+div.-panel {
     padding: 0 18px;
     display: none;
     background-color: white;
