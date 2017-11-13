@@ -52,6 +52,20 @@ for (i = 0; i < close.length; i++) {
 }
 
 
+var accr = document.getElementsByClassName("accordion");
+var j;
+for (j = 0; j < accr.length; j++) {
+  accr[j].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  }
+}
+
 function opentab(tabname, evt) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -66,19 +80,6 @@ function opentab(tabname, evt) {
     evt.currentTarget.className += " active";
 }
 
+
+
 document.getElementById("defaultOpen").click();
-
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].onclick = function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  }
-}
