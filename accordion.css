@@ -1,8 +1,8 @@
-button.accordion, .button.accordion {
+button.accordion {
     background-color: #eee;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 12px;
     width: 100%;
     border: none;
     text-align: left;
@@ -11,12 +11,28 @@ button.accordion, .button.accordion {
     transition: 0.4s;
 }
 
-button.accordion.active, button.accordion:hover, .button.accordion.active, .button.accordion:hover{
-    background-color: #ddd; 
+button.accordion.active, button.accordion:hover {
+    background-color: #ccc;
+}
+
+button.accordion:before {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+button.accordion.active:before {
+    content: "\2212";
 }
 
 div.-panel {
     padding: 0 18px;
-    display: none;
     background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+	display:block;
+    margin-bottom:6px;
+    border-radius:4px;
 }
