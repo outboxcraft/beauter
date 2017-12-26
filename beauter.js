@@ -43,6 +43,8 @@ var i;
 for (i = 0; i < close.length; i++) {
     close[i].onclick = function() {
         var div = this.parentElement;
+        if(div.className=="modalbox-modal-content")
+          div = div.parentElement;
         div.style.opacity = "0";
         setTimeout(function() {
             div.style.display = "none";
@@ -79,7 +81,3 @@ function opentab(tabname, evt) {
     document.getElementById(tabname).style.display = "block";
     evt.currentTarget.className += " active";
 }
-
-
-
-document.getElementById("defaultOpen").click();
