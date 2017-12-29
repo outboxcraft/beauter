@@ -43,7 +43,7 @@ var i;
 for (i = 0; i < close.length; i++) {
     close[i].onclick = function() {
         var div = this.parentElement;
-        if(div.className=="modalbox-modal-content")
+        if(div.classList.contains("modalbox-modal-content"))
           div = div.parentElement;
         div.style.opacity = "0";
         setTimeout(function() {
