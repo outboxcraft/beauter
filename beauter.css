@@ -13,7 +13,6 @@
 @import 'imgmodal.css';
 @import 'modal.css';
 @import 'navigation.css';
-@import 'notes.css';
 @import 'pagination.css';
 @import 'parallax.css';
 @import 'progressbar.css';
@@ -23,3 +22,4 @@
 @import 'media.css';
 @import 'layers.css';
 @import 'colors.css';
+@import 'notes.css';
