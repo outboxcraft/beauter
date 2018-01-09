@@ -2,7 +2,7 @@
 ._white,
 ._yellow,
 ._pink,
-._brown
+._success
 {
     color: #000 !important;
 }
@@ -16,7 +16,7 @@
 ._dark,
 ._active,
 ._danger,
-._success,
+._brown,
 ._teal,
 ._info,
 ._warning
