@@ -17,7 +17,7 @@
 
 ## Why it's awesome
 
-Beauter provides a minimal range of beautiful elements and styles in pure vanilla CSS which makes it easier to start with a cleaner and faster development. It's Mobile First, responsive across various devices with a very small footprint, **4kb gzipped!**, which makes it faster. Hope you like it! ♥ 
+Beauter provides a minimal range of beautiful elements and styles in pure vanilla CSS which makes it easier to start with a cleaner and faster development. It's Mobile First, responsive across various devices with a very small footprint, **6kb gzipped!**, which makes it faster. Hope you like it! ♥ 
 
 ## Quick Start
 
