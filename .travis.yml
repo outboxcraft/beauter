@@ -4,4 +4,4 @@ node_js:
 install:
  - npm install -g csslint
 script:
- - csslint --warnings=ids beauter.css
+ - csslint --warnings=ids beauter.min.css
