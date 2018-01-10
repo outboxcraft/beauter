@@ -1,7 +1,7 @@
 {
   "name": "beauter",
   "description": "A simple framework for faster and beautiful responsive sites.",
-  "main": ["src/beauter.min.css", "src/beauter.js"],
+  "main": ["src/beauter.css", "src/beauter.js"],
   "license": "MIT",
   "homepage": "http://beauter.outboxcraft.com",
   "ignore": [
