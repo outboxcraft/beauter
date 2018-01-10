@@ -26,11 +26,20 @@ You can get Beauter by many ways
 - Install with [npm](https://www.npmjs.com): `npm install @outboxcraft/beauter`
 - Install with [Bower](https://bower.io): `bower install beauter`
 
-Then just add the Style Sheet to your web page
+
+Use direct CDN links to add the Style Sheet to your web page
 ```
-<link rel="stylesheet" type="text/css" href="beauter.min.css">
+<link rel="stylesheet" type="text/css" href="https://rawgit.com/outboxcraft/beauter/master/beauter.min.css">
 ```
+And the js file **NEW**
+```
+<script src="https://rawgit.com/outboxcraft/beauter/master/beauter.min.js"></script>
+```
+
+Or add the files manually using the download.
+
 And its all set!
+
 To learn more, please checkout beauter [documentation](http://beauter.outboxcraft.com/docs). 
 
 ## Contributing
