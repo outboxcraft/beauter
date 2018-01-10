@@ -1,8 +1,8 @@
 {
   "name": "@outboxcraft/beauter",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "A simple framework for faster and beautiful responsive sites.",
-  "main": "beauter.css",
+  "main": ["beauter.min.css", "beauter.min.js"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,12 +18,14 @@
     "html",
     "css",
     "css3",
-    "front-end"
+    "front-end",
+    "html5",
+    "mobile-first"
   ],
   "author": "Shubham Ramdeo",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/outboxcraft/beauter/issues"
   },
-  "homepage": "https://github.com/outboxcraft/beauter#readme"
+  "homepage": "http://beauter.outboxcraft.com/"
 }
