@@ -1,7 +1,7 @@
 {
   "name": "beauter",
   "description": "A simple framework for faster and beautiful responsive sites.",
-  "main": "beauter.css",
+  "main": ["beauter.min.css", "beauter.min.js"],
   "license": "MIT",
   "homepage": "http://beauter.outboxcraft.com",
   "ignore": [
@@ -19,7 +19,9 @@
     "html",
     "css",
     "css3",
-    "front-end"
+    "front-end",
+    "html5",
+    "mobile-first"
   ],
   "authors": [
     "Shubham Ramdeo"
