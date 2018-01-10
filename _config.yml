@@ -3,7 +3,3 @@ collections:
   docs:
     output: true
     permalink: /:collection/:slug/
-  docs0.3:
-    output: true
-    permalink: /0.3/docs/:slug/
-  
