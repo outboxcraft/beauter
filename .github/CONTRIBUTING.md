@@ -13,7 +13,7 @@ Beauter is an open source project and we would love to receive any contribution 
 - Writing Tutorials or blog posts
 - Improving documentation
 - Submitting Bug reports and feature requests
-- writing code that can be incorporated into Beauter itself
+- Writing code that can be incorporated into Beauter itself
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
