@@ -57,7 +57,7 @@ Although Beauter follows BOL methodology for its design, you can read it here: h
 
 ## How will it get processed?
 
-The core team will look at the submitted requests and issues and will try to resolve them within two weeks, on the development branches, patches can be released in a month for the main branch.
+The core team will look at the submitted requests and issues and will try to resolve as soon as possible on the development branches, patches can be released in a month for the main branch.
 
 You can chat with the core team on https://gitter.im/outboxcraft/beauter. Although we are a bit lazy, we try to reply as soon as we read.
 
