@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="https://rawgit.com/outboxcraft/beauter/master/beauter.min.css" />
 
     <link rel="stylesheet" href="https:/fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-    <meta name="theme-color" content="#FFC0CB">
+    <meta name="theme-color" content="#ff9">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -75,8 +75,10 @@
             margin-bottom: 10px;
         }
         .m {
-            color: hotpink;
+            color: #ff5272;
         }
+
+        ul.topnav li a {color:black}
     }
     </style>
 
@@ -91,43 +93,54 @@
   ga('send', 'pageview');
   ga('set', 'userId', 'beauteruid'); 
 
+  <link href=
+     "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/default.min.css"
+     rel="stylesheet">
+     <script src=
+     "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js">
+     </script>
+     <script>
+      hljs.initHighlightingOnLoad();
+     </script>
+
 </script>
    <script async defer src="https://buttons.github.io/buttons.js"></script>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body>
-    <!--h3 class="_shadow _success _alignCenter">This project is currently on beta test.</h3-->
-
-
-    <ul class="topnav" id="myTopnav"  style="    position: fixed;
-    
-    width: 100%; z-index: 1; margin-bottom:56px;">
-        <li>
-            <a href="http://beauter.outboxcraft.com" class="brand"><img src="/img/chry.svg" style="width:20px"> Beauter</a>
-        </li>
-        <li><a href="/">Home</a>
-        </li>
-
-        <li><a href="/docs">Docs</a>
-        </li>
-        <li><a onclick="myBtnfunction()">Download</a>
-        </li>
 
 
 
-        <li class="-icon">
-            <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-        </li>
 
-        <li class="brand " style="float:right; display:inline!important">
-            <a href="http://github.com/outboxcraft/beauter/"><img src="/img/GitHub-Mark-Light-32px.png" style="width:20px">
-            </a>
-        </li>
-
-
-    </ul>
-
+<ul class="topnav -fixed" id="myTopnav" style="background:#ff9">
+   <li>
+      <a class="brand" href="http://beauter.outboxcraft.com/"><img src=
+      "http://beauter.outboxcraft.com/img/chry.svg" style="width:20px">
+      Beauter</a>
+   </li>
+   <li>
+      <a href="http://beauter.outboxcraft.com/docs/">Docs</a>
+   </li>
+   <li>
+      <a onclick="openmodal(myModal2)">Download</a>
+   </li>
+   <li class="-icon">
+      <a href="javascript:void(0);" onclick="topnav('myTopnav')">&#9776;</a>
+   </li>
+   <li class="brand" style="float:right; display:inline!important">
+      <a href="http://github.com/outboxcraft/beauter/"><img src=
+      "http://beauter.outboxcraft.com/img/GitHub-Mark-Light-32px.png" style=
+      "width:20px;filter: invert(100%);"></a>
+   </li>
+</ul>
+<style>
+#men .listnav li a{color:#333}
+#men .listnav li a:hover{font-weight:bold;color:pi;background-color:#f1f1f1}
+</style>
+<div class="container _force-full-width" style=
+"padding:5%; background: white; /* For browsers that do not support gradients */ background: linear-gradient(#ff9, white); margin-top:56px;">
+   <div></div>
 
 
     <div id="myModal2" class="modalbox-modal _alignCenter">
@@ -150,203 +163,197 @@
         </div>
     </div>
 
-    <div class="container _force-full-width _shadow" style="padding:5%;background:#ff9"><div style="margin-bottom:56px;"></div>
-        <h2>Documentation</h2>
-        <p>Everything you can do with Beauter</p>
-    </div>
+    <style>
+       #men .listnav li a{color:#333}
+       #men .listnav li a:hover{font-weight:bold;color:pi;background-color:#f1f1f1}
+       </style>
+       <div class="container _force-full-width" style=
+       "padding:5%; background: white; /* For browsers that do not support gradients */ background: linear-gradient(#ff9, white); margin-top:56px;">
+          <div></div>
+          <h1>Documentation</h1>
+          <p>Everything you can do with Beauter</p>
+       </div>
+       <div class=
+       " _alignCenter _force-full-width _hide-desktop _hide-widescreen _hide-tablet"
+       style=" padding-top:10px;">
+          <a href="#men"><button class="_cream&quot;">Jump to Navigation
+          Menu</button></a>
+       </div>
+       <div class="row" style="margin-top:50px">
+          <div class="col m8 _bordere">
+             <div class="container">
 
 
-    <div class="container _alignCenter _force-full-width _hide-desktop _hide-widescreen _hide-tablet _shadow" style="background:#eee; padding-top:10px;">
-        <a href="#men">
-            <button style="text-transform: uppercase;">Jump to Navigation Menu</button>
-        </a>
-    </div>
-
-    <div class="row">
-        <div class="col m8">
-<br>
-		<div class="alert"><b>Beauter 0.3</b> is just launched. We are working on new documentation. This could take us a while.</div>
-<br>
-
-
-            <div class="container">
-			
 			{{ content }}
 			
-	            </div>
-
-
-
-
-
-        </div>
-        <div id="men" class="col m4" style="padding:0; padding-top:15px;!important;">
-            <div>
-                <ul class="listnav _cream">
-                    <li><a href="/docs/about">About</a>
-                    </li>
-                    <li><a href="/docs/license">License</a>
-                    </li>
-                    <li><a href="/docs/start">Getting Started</a>
-                    </li>
-                    <li><a href="/docs/methodology">Naming Methodology</a>
-                    </li>
+      </div>
+    </div>
+    <div class="col m4 _white">
+       <div class="" id="men" style=
+       "padding:0; padding-top:15px;!important;">
+          <div id="menu">
+             
+             <div class="">
+                <ul class="listnav _white">
+                   <li>
+                      <a href="/docs/about">About</a>
+                   </li>
+                   <li>
+                      <a href="/docs/license">License</a>
+                   </li>
+                   <li>
+                      <a href="/docs/start">Getting Started</a>
+                   </li>
+                   <li>
+                      <a href="/docs/methodology">Naming Methodology</a>
+                   </li>
                 </ul>
-                <br>
-                <ul class="listnav _cream">
-                    <li><a href="/docs/grid">Grid</a>
-                    </li>
-                    <li><a href="/docs/typo">Typography</a>
-                    </li>
-                    <li><a href="/docs/lists">Lists</a>
-                    </li>
-                    <li><a href="/docs/tables">Tables</a>
-                    </li>
-                    <li><a href="/docs/containers">Containers and Jumbo</a>
-                    </li>
-                    <li><a href="/docs/images">Images</a>
-                    </li>
-                    <li><a href="/docs/modalimg">Modal Images</a>
-                    </li>
-                    <li><a href="/docs/modalbox">Modal Boxes</a>
-                    </li>
-                    <li><a href="/docs/navigation">Navigation</a>
-                    </li>
-                    <li><a href="/docs/parallax">Parallax</a>
-                    </li>
-                    <li><a href="/docs/alert">Alerts</a>
-                    </li>
-                    <li><a href="/docs/tooltips">Tooltips</a>
-                    </li>
-                    <li><a href="/docs/buttons">Buttons</a>
-                    </li>
-                    <li><a href="/docs/forms">Forms</a>
-                    </li>
-                    <li><a href="/docs/progress">Progress Bars</a>
-                    </li>
-                    <li><a href="/docs/utilities">Utilities</a>
-                    </li>
+             </div><br>
+             <div class="">
+                <ul class="listnav _white">
+                   <li>
+                      <a href="/docs/grid">Grid</a>
+                   </li>
+                   <li>
+                      <a href="/docs/offsets">Offsets</a>
+                   </li>
+                   <li>
+                      <a href="/docs/typo">Typography</a>
+                   </li>
+                   <li>
+                      <a href="/docs/lists">Lists</a>
+                   </li>
+                   <li>
+                      <a href="/docs/tables">Tables</a>
+                   </li>
+                   <li>
+                      <a href="/docs/containers">Containers and Jumbo</a>
+                   </li>
+                   <li>
+                      <a href="/docs/images">Images</a>
+                   </li>
+                   <li>
+                      <a href="/docs/buttons">Buttons</a>
+                   </li>
+                   <li>
+                      <a href="/docs/forms">Forms</a>
+                   </li>
                 </ul>
+             </div><br>
+             <div class="">
+                <ul class="listnav _white">
+                   <li>
+                      <a href="/docs/modalimg">Modal Images</a>
+                   </li>
+                   <li>
+                      <a href="/docs/modalbox">Modal Boxes</a>
+                   </li>
+                   <li>
+                      <a href="/docs/navigation">Navigation</a>
+                   </li>
+                   <li>
+                      <a href="/docs/parallax">Parallax</a>
+                   </li>
+                   <li>
+                      <a href="/docs/alert">Alerts</a>
+                   </li>
+                   <li>
+                      <a href="/docs/tooltips">Tooltips</a>
+                   </li>
+                   <li>
+                      <a href="/docs/cards">Cards</a>
+                   </li>
+                   <li>
+                      <a href="/docs/breadcrumbs">Breadcrumbs</a>
+                   </li>
+                   <li>
+                      <a href="/docs/accordion">Accordion</a>
+                   </li>
+                   <li>
+                      <a href="/docs/progress">Progress Bars</a>
+                   </li>
+                   <li>
+                      <a href="/docs/tabs">Tabs</a>
+                   </li>
+                   <li>
+                      <a href="/docs/snackbar">Snackbar</a>
+                   </li>
+                   <li>
+                      <a href="/docs/notes">Notes</a>
+                   </li>
+                </ul>
+             </div>
+<br>
+             <div class="">
+                <ul class="listnav _white">
+                   <li>
+                      <a href="/docs/colors">Colors</a>
+                   </li>
+                   <li>
+                      <a href="/docs/utilities">Utilities</a>
+                   </li>
+                   <li>
+                      <a href="/docs/js">Javascript</a>
+                   </li>
+                </ul>
+             </div>
 
-
-            </div>
-		
-<!-- beauterside -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4652822700036327"
-     data-ad-slot="5105965609"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-        </div>
-
+             <ins class="adsbygoogle"
+                  style="display:block"
+                  data-ad-client="ca-pub-4652822700036327"
+                  data-ad-slot="5105965609"
+                  data-ad-format="auto"></ins>
+             <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+             </script>
+             
+          </div>
+       </div>
     </div>
-
-
-    <hr>
-
-
-<div class="container">
-        <div class="row">
-<div class="col m6">
-<h4>News</h4>
-
-<ul>
-<li>New 'Examples' section coming with wonderful tutorials!</li>
-<li>Adding animations and transitions effects soon.</li> 
-<li>0.3 development started. Join us <a href="https://github.com/outboxcraft/beauter/tree/v0.3-dev">here</a>.</li>
-</ul>
-
-
-    </div>
-<hr class="_hide-desktop _hide-widescreen _hide-tablet">
-<div class="_alignCenter col m6" style="border:none">
-        <h4>Get Involved</h4>
-        <p>Your contribution can make beauter more beautiful. Visit <a href="http://github.com/outboxcraft/beauter/">Github</a> to collaborate.</p>
-        <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.89bd237a86eeb0e8b1de842a4b88b09b.en.html#dnt=false&amp;hashtags=beauter&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fbeauter.outboxcraft.com%2F&amp;related=ramdeoshubham&amp;size=m&amp;text=Beauter%20-%20A%20simple%20framework%20for%20beautiful%20responsive%20sites.&amp;time=1490279981139&amp;type=share&amp;url=http%3A%2F%2Fbeauter.outboxcraft.com&amp;via=ramdeoshubham" style="position: static; visibility: visible; width: 60px; height: 20px;" data-url="http://beauter.outboxcraft.com"></iframe>
-        <!-- Place this tag where you want the button to render. -->
-        <a class="github-button" href="https://github.com/outboxcraft/beauter" data-icon="octicon-star" aria-label="Star outboxcraft/beauter on GitHub">Star</a>
-        <!-- Place this tag where you want the button to render. -->
-        <a class="github-button" href="https://github.com/outboxcraft/beauter/fork" data-icon="octicon-repo-forked" aria-label="Fork outboxcraft/beauter on GitHub">Fork</a>
-    </div>
-
-
-</div>
-
-</div>
-    <hr>
-    <div class="_dark  jumbo">
-
-        <a href="http://beauter.outboxcraft.com/sitemap.html" class="_hidden">Sitemap</a> Designed with <span alt="love">&hearts;</span> by <a style="color:white" href="http://ramdeoshubham.com">Shubham Ramdeo</a>
-        <br><a href="https://twitter.com/ramdeoshubham" class="twitter-follow-button" data-show-count="false" data-size="medium">Follow @ramdeoshubham</a>
-        <script>
-            ! function(d, s, id) {
+ </div>
+ <hr>
+ <div style=" background: linear-gradient(white,#ff9);">
+    <div class="" style=
+    " /* For browsers that do not support gradients */ background: url('method-draw-image.svg'); background-repeat:no-repeat;background-position: left bottom;background-size: 25%;">
+       <div class=" jumbo container _alignLeft">
+          <div class="row">
+             <div class="col m6">
+                <a class="_hidden" href="sitemap.html">Sitemap</a> .. 
+                <script>
+                ! function(d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
                 if (!d.getElementById(id)) {
-                    js = d.createElement(s);
-                    js.id = id;
-                    js.src = "//platform.twitter.com/widgets.js";
-                    fjs.parentNode.insertBefore(js, fjs);
+                  js = d.createElement(s);
+                  js.id = id;
+                  js.src = "//platform.twitter.com/widgets.js";
+                  fjs.parentNode.insertBefore(js, fjs);
                 }
-            }(document, "script", "twitter-wjs");
-        </script>
-        <br>
-        <img src="/img/cl.png" style="width:25px" alt="outboxcraft logo"><a style="color:white" href="http://outboxcraft.com">Outboxcraft</a>
-        <br>&copy; 2017
+                }(document, "script", "twitter-wjs");
+                </script>
+             </div>
+             <div class="col m6 _alignRight">
+                <br>
+                Code licensed under <a href=
+                "https://github.com/outboxcraft/beauter/blob/v0.3-dev/LICENSE"
+                style="text-decoration:none">MIT</a><br>
+                Docs under <a href=
+                "https://creativecommons.org/licenses/by-nc-sa/4.0/" style=
+                "text-decoration:none">CC BY NC SA 4.0</a>.<br>
+                Designed with <span>&hearts;</span><br>
+                <img alt="outboxcraft logo" src=
+                "http://beauter.outboxcraft.com/img/cl.png" style=
+                "width:25px;filter: invert(100%);"><a href=
+                "http://outboxcraft.com" style=
+                "text-decoration:none"><strong style=
+                "color:maroon;">Outboxcraft</strong></a><br>
+                &copy; 2017
+             </div>
+          </div>
+       </div>
     </div>
-
-
-
-    <script>
-        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-
-        function myFunction1() {
-            var x = document.getElementById("myTopnav1");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-
-
-
-        // Get the modal
-        var modal2 = document.getElementById('myModal2');
-
-
-
-        // Get the <span> element that closes the modal
-        var span2 = document.getElementById('modalbox-close2');
-
-        // When the user clicks on the button, open the modal 
-        function myBtnfunction() {
-            modal2.style.display = "block";
-        }
-
-        // When the user clicks on <span> (x), close the modal
-        span2.onclick = function() {
-            modal2.style.display = "none";
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal2.style.display = "none";
-            }
-        }
-    </script>
-
+    <script src=
+    "https://rawgit.com/outboxcraft/beauter/master/beauter.min.js">
+    </script> 
+ </div>
 </body>
-
 </html>
