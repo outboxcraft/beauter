@@ -1,0 +1,61 @@
+---
+layout: doc
+meta: |
+
+    <title>Javascript - Beauter | Documentation</title>
+    <meta name="description" content="Javascripts functions available in Beauter.">
+    <meta name="keywords" content="js,javascript,css,html,framework,website,design,beauter,responsive">
+
+
+---
+
+<h1>Javascript Functions</h1>
+<p>For using javascript easily with beauter, javascript functions are being tested to call and interect with beauter elements directly without scripting from scratch.</p>
+<p>You can include the downloaded script file 'beauter.min.js' at the end just before the <code>&lt;/body></code> tag.
+
+  <p>Or you can use CDN such as:</p>
+
+  <pre class=""><code class=" _cream">https://rawgit.com/outboxcraft/beauter/master/beauter.min.js</code></pre>
+
+
+<h3>-close class</h3>
+<p>To make an element that can be closed by clicking on some element inside it, you can use <code>-close</code> class. Note that the <code>-close</code> class will only close the parent element.</p>
+
+<pre><code>&lt;div class = "jumbo _purple" style="transition:2s">
+&lt;h3>I am a jumbo&lt;/h3>
+&lt;p>The button below can close me.&lt;/p>
+&lt;button class="-close _yellow">hit me&lt;/button>
+&lt;/div></code></pre>
+
+
+
+<div class = "jumbo _purple" style="transition:2s">
+<h3>I am a jumbo</h3>
+<p>The button below can close me.</p>
+<button class="-close _yellow">hit me</button>
+</div>
+<br>
+<h3>showsnackbar('#id')</h3>
+<p>This function can be used to open a snack bar. Just call the id of the snackbar using the <code>showsnackbar(<i>id of snackbar div</i>)</code> on a button using onclick() or the event you want to triger and the snackbar will pop.</p>
+
+<a href="/docs/snackbar">Learn more at snackbar documentation.</a>
+</p>
+<h3>topnav('#id')</h3>
+<p>This function can be used to open a top navigation bar. Just call the id of the topnav using the <code>topnav(<i>id of navbar div</i>)</code> using onclick() on the -icon class and the navbar will become responsive.</p>
+
+<p><a href="/docs/navigation">Learn more at navigation documentation.</a>
+</p>
+<h3>openmodal('#id')</h3>
+<p>This function can be used to popup the modal box. Just call the id of the openmodal using the <code>openmodal(<i>id of modal box div</i>)</code> on a button using onclick() or by automatic popup or the event you want to triger and the modal box will pop.</p>
+
+<p><a href="/docs/modalbox">Learn more at modal box documentation.</a>
+</p>
+<h3>openimg('#id')</h3>
+<p>This function can be used to popup the imgmodal box. Just call the id of the imgmodal along with the image of imgmodal using the <code>openmodal(<i>id of modal box div</i>, <i>id of the image</i>)</code> on a button using onclick() or the event you want to triger and the modal img will pop.</p>
+
+<p><a href="/docs/modalimg">Learn more at modalimg documentation.</a>
+</p>
+<h3>opentab('#id')</h3>
+<p>This function can be used to focus the tab. Just call the id of the tab along with the tab button using the <code>opentab(<i>id of tab div, id of tab button</i>)</code> or on button using onclick() or the event you want to triger and the tab will show.</p>
+<p><a href="/docs/tabs">Learn more at tabs documentation.</a>
+</p>

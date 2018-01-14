@@ -9,21 +9,8 @@ meta: |
 
 ---
 
-<hr><h1>Alert Messages</h1><hr>
-<p>Beauter can add various types of alert messages which are dynamic. Click on the "x" symbol to close the alert message.</p>
-
-
-<strong>base</strong>
-
-<blockquote>
-<pre>
-alert
-</pre></blockquote>
-
-<strong>object</strong><blockquote>
-<pre>
--close
-</pre></blockquote>
+<h1>Alert Messages</h1>
+<p>Beauter can add various types of alert messages which are dynamic. You can also use <code>-close</code> class and add a <code>&times;</code> symbol to close the alert message.</p>
 
 <p>Using modifiers like _primary, _success, _shadow, _box etc will further shape and alter the design of the alert boxes. Learn more <a href="/docs/utilities">here</a>.</p>
 <p><strong>Example</strong></p>
@@ -48,42 +35,18 @@ A simple static fixed alert box.
   &lt;strong>Woah!&lt;/strong> A dynamic alert box with close button.
 &lt;/div></code></pre>
 
-<p><strong>Script to manage every alert on a page</strong></p>
+<p class="note _cream _bc-danger">Note that you need to include <strong>beauter.js</strong> at the end for the dynamic actions of -close symbol. <a href="#">See how here</a>.</p>
 
-<pre><code>&lt;script>
-var close = document.getElementsByClassName("-close");
-var i;
-for (i = 0; i < close.length; i++) {
-    close[i].onclick = function(){
-        var div = this.parentElement;
-        div.style.opacity = "0";       
-        setTimeout(function(){ div.style.display = "none"; }, 600);
-    }
-}
-&lt;/script></code></pre>
-
-<hr><h1>Counter</h1><hr>
+<h1>Counter</h1>
 <p>Counters can be used to show numerical counts like number of notifications etc.</p>
-<pre><code>&lt;span class="count">3&lt;/span></code></pre>
 <span class="count">3</span>
-<script>
+<pre><code>&lt;span class="count">3&lt;/span></code></pre>
 
-var close = document.getElementsByClassName("-close");
-var i;
+<p>Now using both together</P>
 
-for (i = 0; i < close.length; i++) {
-   
-    close[i].onclick = function(){
+<div class="alert _nightblue">You got <span class="count _danger">5</span> unread messages!</div>
 
-               var div = this.parentElement;
-
-        
-        div.style.opacity = "0";
-
-       
-        setTimeout(function(){ div.style.display = "none"; }, 600);
-    }
-}
-</script>
-
-
+<pre><code>&lt;div class="alert _nightblue">
+  You got &lt;span class="count _danger">5&lt;/span> unread messages!
+&lt;/div>
+</code></pre>

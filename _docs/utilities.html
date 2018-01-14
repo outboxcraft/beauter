@@ -11,29 +11,40 @@ meta: |
 
 <style>button,.button{	text-transform: lowercase;}.c{padding:1px;border:1px solid grey;border-radius:5px; }</style>
 
-
-<hr><h1>Utilities</h1><hr>
+<h1>Utilities</h1>
 <p>Beauter adds some inbuilt CSS utilities to make it easier to use. These utilities can be used independently as <code>class = " _<i>utility</i>"</code> inside their tags and divs with any element. Multiple utilities can be mixed and used to make the element more customized.</p>
+
+<blockquote>
+<pre>
+_low
+_high
+</pre></blockquote>
+
+<p class="_low">A _low paragraph</p>
+<p class="_high">A _high paragraph</p>
+
 <blockquote>
 <pre>
 _width100
-_width75 
+_width75
 _width50
+_full-width
 _max-full-width
-_min-full-width
+_force-full-width
 </pre></blockquote>
 <div class='container c' >
 <div class="alert _box _cream _width100">_width100</div>
 <div class="alert _box _cream _width75">_width75</div>
 <div class="alert _box _cream _width50">_width50</div>
+<div class="alert _box _cream _full-width">_full-width</div>
 <div class="alert _box _cream _max-full-width">_max-full-width</div>
-<div class="alert _box _cream _min-full-width">_min-full-width</div>
+<div class="alert _box _cream _force-full-width">_force-full-width</div>
 </div>
 
 <blockquote>
 <pre>
-_floatRight
 _floatLeft
+_floatRight
 </pre></blockquote>
 
 <div class='container c'>
@@ -48,7 +59,7 @@ _floatLeft
 </div>
 
 <blockquote>
-<pre>_alignLeft 
+<pre>_alignLeft
 _alignRight
 _alignCenter</pre></blockquote>
 
@@ -67,7 +78,7 @@ _debugmode</pre></blockquote>
 <div class='container c'>
 <button onclick="changeClass()" class="_shadow _dark">Turn on _debugmode</button></div>
 <script type="text/javascript">
-    
+
 function changeClass() {
 if ( document.getElementsByTagName("body")[0].className.match(/(?:^|\s)_debugmode(?!\S)/) ) {changeClassoff();} else {changeClasson();}}
 
@@ -121,6 +132,7 @@ _blur</pre></blockquote>
 </div>
 
 
+
 <blockquote>
 <pre>
 _hidden
@@ -141,7 +153,7 @@ _hide-widescreen</pre></blockquote>
 </div>
 
 
-<!-- blockquote>
+<blockquote>
 <pre>_is-clipped
 _is-overlay</pre></blockquote>
 <div class="container c">
@@ -149,7 +161,7 @@ _is-overlay</pre></blockquote>
 <div class="alert _box _cream _is-overlay">_is-overlay</div>
 <div class="alert _box _cream _is-clipped">_is-clipped</div>
 
-</div  -->
+</div>
 
 
 <blockquote>
@@ -192,7 +204,8 @@ _primary
 _xsmall
 _small
 _large
-_xlarge</pre></blockquote>
+_xlarge
+_ripple</pre></blockquote>
 
 <div class='container c'>
 <button>default</button>
@@ -213,6 +226,7 @@ _xlarge</pre></blockquote>
 <button class="_small">_small</button>
 <button class="_large">_large</button>
 <button class="_xlarge">_xlarge</button>
+<button class="_primary _ripple">_ripple</button>
 </div>
 
 <blockquote>
@@ -229,5 +243,52 @@ _expandable-truncate</pre></blockquote>
 <p class="_expandable-truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi enim augue, pellentesque id nibh at, laoreet placerat mi. Sed rutrum diam auctor mollis scelerisque. </p>
 </div>
 
+<blockquote>
+<pre>_noDelay</pre></blockquote>
+
+It will turn off any animated stuff..
+
+<div class="tooltip -tooltip-left ">No Delay
+  <span class="tooltiptext _noDelay">Tooltip text</span>
+</div>
+
+<blockquote>
+<pre>_bordered</pre></blockquote>
+
+This makes a border.<br>
+
+<span class="_bordered">hello</span>
+
+<blockquote>
+<pre>_posAbs</pre></blockquote>
+
+sets postition:absolute
+
+<blockquote>
+<pre>_posRel</pre></blockquote>
+
+sets postition:relative
+
+<blockquote>
+<pre>_block</pre></blockquote>
+
+<div class="_bordered"><div class="_bordered _block">hi</div><div class="_bordered _block">hi</div></div>
 
 
+<blockquote>
+<pre>_inline</pre></blockquote>
+
+<div class="_bordered"><div class="_bordered _inline">hi</div><div class="_bordered _inline">hi</div></div>
+
+
+<blockquote>
+<pre>_inline-block</pre></blockquote>
+
+<div class="_bordered"><div class="_bordered _inline-block">hi</div><div class="_bordered _inline-block">hi</div></div>
+
+<blockquote>
+<pre>_is-invisible</pre></blockquote>
+
+<pre>&lt;h1 class="_is-invisible">hi&lt;/h1></pre>
+<h1 class="_is-invisible">hi</h1>
+It takes space but is invisiblle..

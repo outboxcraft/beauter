@@ -8,8 +8,7 @@ meta: |
 
 
 ---
-
-<hr><h1>List Navigation</h1><hr>
+<h1>List Navigation</h1>
 <strong>base</strong>
 <blockquote><pre>listnav</pre></blockquote>
 <pre><code>&lt;ul class="listnav" >
@@ -24,8 +23,8 @@ meta: |
 <li><a href="#">Page</a></li>
 <li><a href="#">Contact</a></li>
 </ul>
-
-<hr><h1>Top Navbar</h1><hr>
+<br>
+<h1>Top Navbar</h1>
 <strong>base</strong>
 <blockquote><pre>topnav</pre></blockquote>
 <p>You can add a responsive top navbar which contracts and expands as per the width of the screen. Resize the window and see. It also contains different styles for different kinds of options available ads a menu. Also a Dropdown is there for more options.</p>
@@ -38,29 +37,20 @@ meta: |
     <div class="dropdown-content">
       <a href="#">Link 1</a>
 	  <a href="#">Link 2</a>
-	  
+
     </div>
   </li>
 <li><a href="#">Link</a></li>
 <li><a href="#" class="disabled">Disabled</a></li>
   <li style="float:right;"><a href="#" >Right</a></li>
   <li class="-icon">
-    <a href="javascript:void(0);" onclick="myFunction2()">&#9776;</a>
+    <a href="javascript:void(0);" onclick="topnav('myTopnav2')">&#9776;</a>
   </li>
 
 </ul>
-<script>
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the -icon */
-function myFunction2() {
-    var x = document.getElementById("myTopnav2");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
-<pre><code>&lt;ul class="topnav" id="myTopnav">
+
+
+<pre><code>&lt;ul class="topnav" id="myTopnav2">
   &lt;li>&lt;a href="#beauter" class="brand">Brand&lt;/a>&lt;/li>
   &lt;li>&lt;a href="#" class="active">Active&lt;/a>&lt;/li>
   &lt;li class="dropdown">
@@ -68,27 +58,14 @@ function myFunction2() {
     &lt;div class="dropdown-content">
       &lt;a href="#">Link 1&lt;/a>
 	  &lt;a href="#">Link 2&lt;/a>
-	  
+
     &lt;/div>
   &lt;/li>
 &lt;li>&lt;a href="#">Link&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#" class="disabled">Disabled&lt;/a>&lt;/li>
   &lt;li style="float:right;">&lt;a href="#" >Right&lt;/a>&lt;/li>
   &lt;li class="-icon">
-    &lt;a href="javascript:void(0);" onclick="myFunction()">&#9776;&lt;/a>
+    &lt;a href="javascript:void(0);" onclick="topnav('myTopnav2')">&#9776;&lt;/a>
   &lt;/li>
 
-&lt;/ul>
-&lt;script>
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the -icon */
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-&lt;/script></code></pre>
-
-
+&lt;/ul></code></pre>

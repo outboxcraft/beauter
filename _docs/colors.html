@@ -1,0 +1,69 @@
+---
+layout: doc
+meta: |
+
+    <title>Colors - Beauter | Documentation</title>
+    <meta name="description" content="Colors available in Beauter">
+    <meta name="keywords" content="colors,style,css,html,framework,website,design,beauter,responsive">
+
+
+---
+
+<h1>Colors</h1>
+
+<p>Beauter now supports following 16 color classes to change background, foreground, and bordery colors.</p>
+
+<style>
+#q .col{border: 1px solid #fff!important}
+</style>
+
+<div class="row" id="q">
+<div style="padding-top:10%" class="col f3 _nightblue">nightblue</div>
+<div style="padding-top:10%" class="f3 col _indigo">indigo</div>
+<div style="padding-top:10%" class="f3 col _info">info</div>
+<div style="padding-top:10%" class="f3 col _primary">primary</div>
+<div style="padding-top:10%" class="f3 col _teal">teal</div>
+<div style="padding-top:10%" class="f3 col _success">success</div>
+<div style="padding-top:10%" class="f3 col _yellow">yellow</div>
+<div style="padding-top:10%" class="f3 col _warning">warning</div>
+<div style="padding-top:10%" class="f3 col _danger">danger</div>
+<div style="padding-top:10%" class="f3 col _brown">brown</div>
+<div style="padding-top:10%" class="f3 col _purple">purple</div>
+<div style="padding-top:10%" class="f3 col _pink">pink</div>
+<div style="padding-top:10%" class="f3 col _white">white</div>
+<div style="padding-top:10%" class="f3 col _cream">cream</div>
+<div style="padding-top:10%" class="f3 col _dark">dark</div>
+<div style="padding-top:10%" class="f3 col _black">black</div>
+</div>
+<br>
+
+<h4>To set the background color</h4>
+
+<p>To use the colors as background, simply add their names as a class with an underscore. For example, for purple background, you can use <code>class="_purple"</code>. This will automatically set the text color to either white or black on contrast and also same color to the borders.</p>
+<h4>To set the text color</h4>
+<p>To use the colors as front text matter, use suffix <code>f-</code> along with the underscore. For example, for purple text, you can have <code>class="_f-purple"</code>.</p>
+<h4>To set the border color</h4>
+<p>For changing color of the border particularly, its same as above, just use the <code>bc-</code> suffix. For example. <code>class="_bc-purple"</code>.</p>
+<h4>Example</h4>
+<p>You are free to mix up, for example, see the following jumbo:</p>
+
+<div class="jumbo _bordered _f-teal _bc-black _pink">
+Colorful?
+</div>
+
+
+<pre><code class="_cream">&lt;div class="jumbo _bordered _f-teal _bc-black _pink">
+Colorful?
+&lt;/div>
+</code></pre>
+
+
+<div class=" _f-yellow _bc-primary _nightblue note">
+Colorful?
+</div>
+
+
+<pre><code class="_cream">&lt;div class="note _f-yellow _bc-primary _nightblue">
+Colorful?
+&lt;/div>
+</code></pre>

@@ -9,21 +9,20 @@ meta: |
 
 ---
 
-<hr>
-<h1>Tooltips</h1><hr>
-<p>Beauter allows 4 basic tooltips for all 4 directions with an arrow on the hover text.</p>
+<h1>Tooltips</h1>
+<p>Beauter allows basic tooltips which can be customized using utilities for all 4 directions with an arrow on the hover text.</p>
 
 
-<strong>div classes</strong>
+<strong>base classes</strong>
 
 <blockquote>
 <pre>
 tooltip
-</pre></blockquote>
+tooltiptext</pre></blockquote>
 
-<blockquote>
-<pre>tooltiptext</pre></blockquote>
-<strong>object</strong>
+</p>Use <code>tooltip</code> class to add tooltip to a text or button. Then use <code>tooltiptext</code> class to define the tooltip text.</p>
+
+<strong>object classes</strong>
 <blockquote>
 <pre>
 -tooltip-right
@@ -32,30 +31,45 @@ tooltip
 -tooltip-bottom
 </pre></blockquote>
 
-<strong>Example</strong>
+<h5 id="examples">Examples</h5>
 
-<pre><code>&lt;div class="tooltip -tooltip-right _danger">Notice me
-  &lt;span class="tooltiptext">Tooltip text&lt;/span>
-&lt;/div>
-&lt;div class="tooltip -tooltip-left ">No Delay
-  &lt;span class="tooltiptext _noDelay">Tooltip text&lt;/span>
-&lt;/div>&lt;br>
-&lt;div class="tooltip -tooltip-top">Shadowed
-  &lt;span class="tooltiptext _shadow">Tooltip text&lt;/span>
-&lt;/div>
-&lt;div class="tooltip -tooltip-bottom">Special
-  &lt;span class="tooltiptext _primary">Tooltip text&lt;/span>
+<div class="_bordered" style="padding:10;margin-bottom:10px;border-color:#eee!important">
+
+<pre><code class="_cream">&lt;div class="tooltip -tooltip-right _danger">Notice me
+  &lt;span class="<strong>tooltiptext</strong>">Tooltip text&lt;/span>
 &lt;/div></code></pre>
+
 <div class="tooltip -tooltip-right _danger">Notice me
   <span class="tooltiptext ">Tooltip text</span>
 </div>
+</div>
+<div class="_bordered" style="padding:10;margin-bottom:10px;border-color:#eee!important">
+
+
+<pre><code class="_cream">&lt;div class="<strong>tooltip -tooltip-left</strong>">No Delay
+  &lt;span class="<strong>tooltiptext</strong> _noDelay">Tooltip text&lt;/span>
+&lt;/div></code></pre>
+
+
+
 <div class="tooltip -tooltip-left ">No Delay
   <span class="tooltiptext _noDelay">Tooltip text</span>
-</div><br>
-<div class="tooltip -tooltip-top">Shadowed
+</div>
+</div>
+<div class="_bordered" style="padding:10;margin-bottom:10px;border-color:#eee!important">
+<pre><code class="_cream">&lt;div class="<strong>tooltip -tooltip-top</strong>">Shadowed
+  &lt;span class="<strong>tooltiptext</strong> _shadow">Tooltip text&lt;/span>
+&lt;/div></code></pre>
+
+  <div class="tooltip -tooltip-top">Shadowed
   <span class="tooltiptext _shadow">Tooltip text</span>
 </div>
+</div>
+<div class="_bordered" style="padding:10;margin-bottom:10px;border-color:#eee!important">
+<pre><code class="_cream">&lt;div class="<strong>tooltip -tooltip-bottom</strong>">Special
+  &lt;span class="<strong>tooltiptext</strong> _primary">Tooltip text&lt;/span>
+&lt;/div></code></pre>
 <div class="tooltip -tooltip-bottom">Special
   <span class="tooltiptext _primary">Tooltip text</span>
 </div>
-
+</div>

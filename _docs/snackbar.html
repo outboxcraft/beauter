@@ -1,0 +1,39 @@
+
+---
+layout: doc
+meta: |
+
+    <title>Snackbar - Beauter | Documentation</title>
+    <meta name="description" content="Snackbars with Beauter.">
+    <meta name="keywords" content="snackbars,css,html,framework,website,design,beauter,responsive">
+
+
+---
+<h1>Snackbars</h1>
+<p>Snackbar are simple popup message boxes. Use the class <code>.snackbar</code>to create a hidden snackbar which can be poped by calling the id using snackbar() function.</p>
+
+<p class="note _cream _bc-danger">Note that you need to include <strong>beauter.js</strong> at the end for the dynamic toggle action of accordion button. <a href="/docs/js">See how here</a>.</p>
+
+<p><strong>Example</strong></p>
+
+<p>This is a simple one.</p>
+
+<pre><code>&lt;div id="sn1" class="snackbar">
+  Hi there!!!
+&lt;/div>
+&lt;button onclick="showsnackbar('sn1')">Here&lt;/button></code></pre>
+
+<div id="sn1" class="snackbar">Hi there!!!</div>
+<button onclick="showsnackbar('sn1')">Here</button>
+
+<p>Trying some layers.</p>
+
+
+<pre><code>&lt;div id="sn2" class="snackbar _primary _box _shadow">
+  Looks cool
+&lt;/div>
+&lt;button onclick="showsnackbar('sn2')">This one&lt;/button></code></pre>
+
+
+<div id="sn2" class="snackbar _primary _box _shadow">Looks cool</div>
+<button onclick="showsnackbar('sn2')">This one</button>

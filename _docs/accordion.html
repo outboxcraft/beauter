@@ -1,0 +1,59 @@
+---
+layout: doc
+meta: |
+
+    <title>Accordions - Beauter | Documentation</title>
+    <meta name="description" content="Making Accordions with Beauter">
+    <meta name="keywords" content="accordion,css,html,framework,website,design,beauter,responsive">
+
+---
+<h1>Accordion</h1>
+
+<p>Accordions are simple content blocks that expands or contracts on toggle. They can be used to hide extra optional information, or to build a step wise explaination.</p>
+
+<p>To build an accordion, create a button with <code>accordion</code> class, and immediately create a <code> &lt;div></code> with <code>-panel</code> class.</p>
+
+<p>For example</p>
+
+<pre><code class="_cream">&lt;button class="accordion">toggle&lt;/button>
+&lt;div class="-panel"> Content &lt;/div></code></pre>
+
+<button class="accordion">toggle</button>
+<div class="-panel"> Content </div>
+<br>
+<p class="note _cream _bc-danger">Note that you need to include <strong>beauter.min.js</strong> at the end for the dynamic event triggering. <a href="/docs/js">See how here</a>.</p>
+
+
+
+<hr>
+<p>You can create nice interactive interfaces using accordions.</p>
+<button class="accordion _pink _round">Pinkish Round</button>
+<div class="-panel _cream">
+<p>Hello this is an accordion. You can put simple text here.</p>
+                </div>
+
+                <button class="accordion _small _yellow">Tiny but worthy</button>
+                <div class="-panel _yellow">
+                <p>Hello this is another accordion. You can also put buttons like</P><button class="_primary">This</button>
+                                </div>
+
+
+                                <button class="accordion _box _shadow _dark">Shadow</button>
+                                <div class="-panel">
+                                <p>Hello this is one more accordion. Very useful for creating process based or choice based stuff.</p><img src="http://beauter.outboxcraft.com/img/pink.jpg">
+                                                </div>
+<br><strong>Source</strong>
+<pre><code>&lt;button class="accordion _pink _round">Pinkish Round&lt;/button>
+&lt;div class="-panel _cream">
+  &lt;p>Hello this is an accordion. You can put simple text here.&lt;/p>
+&lt;/div>
+
+&lt;button class="accordion _small _yellow">Tiny but worthy&lt;/button>
+&lt;div class="-panel _yellow">
+  &lt;p>Hello this is another accordion. You can also put buttons like&lt;/p>&lt;button class="_primary">This&lt;/button>
+&lt;/div>
+
+&lt;button class="accordion _box _shadow _dark">Shadow&lt;/button>
+&lt;div class="-panel">
+  &lt;p>Hello this is one more accordion. Very useful for creating process based or choice based stuff.&lt;/p>&lt;img src="/img/pink.jpg">
+&lt;/div></code></pre>

@@ -8,34 +8,25 @@ meta: |
 
 
 ---
-
-<hr><h1>Progress Bars</h1><hr>
+<h1>Progress Bars</h1>
 <p>Beauter can show your progress with beautiful bars.</p>
-<strong>base</strong>
-<blockquote>
-<pre>progressbar</pre>
-</blockquote>
-<strong>object</strong>
-<blockquote>
-<pre>-bar
--label</pre>
-</blockquote>
 
+<p>Use <code>progress</code> class to create a progress bar element. Inside which, use <code>-bar</code> class to create the bar itself, and <code>-label</code> class to add a label to the bar.</p>
 <strong>Example</strong>
 <pre><code>&lt;div class="progressbar _round">
   &lt;div class="-bar _primary _round" style="width:80%">
   &lt;/div>
 &lt;/div>
-&lt;br>
+
 &lt;div class="progressbar _dark">
   &lt;div class="-bar _danger" style="width:50%">
   &lt;div class="-label">50%&lt;/div>
   &lt;/div>
 &lt;/div>
-&lt;br>
+
 &lt;div class="progressbar _box">
-  &lt;div class="-bar _box _warning" style="width:25%">
-  &lt;div class="-label">25%&lt;/div>
+  &lt;div class="-bar _box _warning" style="width:30%">
+  &lt;div class="-label">step 1&lt;/div>
   &lt;/div>
 &lt;/div></code></pre>
 <strong>Result</strong>
@@ -51,8 +42,8 @@ meta: |
 </div>
 <br>
 <div class="progressbar _box">
-  <div class="-bar _box _warning" style="width:25%">
-  <div class="-label">25%</div>
+  <div class="-bar _box _warning" style="width:30%">
+  <div class="-label">step 1</div>
   </div>
 </div>
 <br>
@@ -69,7 +60,7 @@ meta: |
 
 
 
-<pre><code class="_black">&lt;div id="myProgress" class="progressbar">
+<pre><code>&lt;div id="myProgress" class="progressbar">
   &lt;div id="myBar" class="-bar">
   &lt;div id="mylabel" class="-label">10%&lt;/div>
   &lt;/div>
@@ -80,15 +71,15 @@ meta: |
 
 &lt;script>
 function move() {
-    var elem = document.getElementById("myBar"); 
+    var elem = document.getElementById("myBar");
     var width = 10;
     var id = setInterval(frame, 10);
     function frame() {
         if (width >= 100) {
             clearInterval(id);
         } else {
-            width++; 
-            elem.style.width = width + '%'; 
+            width++;
+            elem.style.width = width + '%';
             document.getElementById("mylabel").innerHTML = width * 1 + '%';
         }
     }
@@ -98,19 +89,17 @@ function move() {
 
 <script>
 function move() {
-    var elem = document.getElementById("myBar"); 
+    var elem = document.getElementById("myBar");
     var width = 10;
     var id = setInterval(frame, 10);
     function frame() {
         if (width >= 100) {
             clearInterval(id);
         } else {
-            width++; 
-            elem.style.width = width + '%'; 
+            width++;
+            elem.style.width = width + '%';
             document.getElementById("mylabel").innerHTML = width * 1 + '%';
         }
     }
 }
 </script>
-
-

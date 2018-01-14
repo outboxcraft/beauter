@@ -1,0 +1,66 @@
+
+---
+layout: doc
+meta: |
+
+    <title>Tabs - Beauter | Documentation</title>
+    <meta name="description" content="Making responsive tabs with Beauter.">
+    <meta name="keywords" content="tabs,css,html,framework,website,design,beauter,responsive">
+
+
+---
+<H1>Tabs</h1>
+<p>Beauter can create simple customisable tabs. Let the example speak itself!</p>
+
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<p class="note _cream _bc-danger">Note that you need to include <strong>beauter.min.js</strong> at the end for the dynamic event triggering. <a href="/docs/js">See how here</a>.</p>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="opentab('tab1')" id="open">Tab 1</button>
+  <button class="tablinks" onclick="opentab('tab2')">Tab 2</button>
+  <button class="tablinks _danger" onclick="opentab('tab3')">Tab 3</button>
+</div>
+
+<div id="tab1" class="tabcontent">
+  <h3>A simple Tab</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="tab2" class="tabcontent _primary">
+  <h3>Another Tab</h3>
+  <p>You can add colors too.</p>
+  <button class="_nightblue">Wow</button>
+</div>
+
+<div id="tab3" class="tabcontent">
+  <div class="-close _floatRight _f-danger">&times;</div>
+
+  <h3>Tab with close button</h3>
+  <p>Do you see a &times; above ?</p>
+</div>
+
+<pre><code>&lt;div class="tab">
+  &lt;button class="tablinks" onclick="opentab('tab1')">Tab 1&lt;/button>
+  &lt;button class="tablinks" onclick="opentab('tab2')">Tab 2&lt;/button>
+  &lt;button class="tablinks _danger" onclick="opentab('tab3')">Tab 3&lt;/button>
+&lt;/div>
+
+&lt;div id="tab1" class="tabcontent">
+  &lt;h3>A simple Tab&lt;/h3>
+  &lt;p>London is the capital city of England.&lt;/p>
+&lt;/div>
+
+&lt;div id="tab2" class="tabcontent _primary">
+  &lt;h3>Another Tab&lt;/h3>
+  &lt;p>You can add colors too.&lt;/p>
+  &lt;button class="_nightblue">Wow&lt;/button>
+&lt;/div>
+
+&lt;div id="tab3" class="tabcontent">
+  &lt;div class="-close _floatRight _f-danger">&times;&lt;/div>
+
+  &lt;h3>Tab with close button&lt;/h3>
+  &lt;p>Do you see a &times; above ?&lt;/p>
+&lt;/div></code></pre>
