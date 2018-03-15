@@ -109,6 +109,49 @@
    hljs.initHighlightingOnLoad();
   </script>
 
+	<style>
+#carbonads {
+  display: block;
+  overflow: hidden;
+  padding: 1em;
+  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+#carbonads span {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.carbon-img {
+  float: left;
+  margin-right: 1em;
+}
+
+.carbon-img img {
+  display: block;
+  line-height: 1;
+}
+
+.carbon-text {
+  display: block;
+  float: left;
+  max-width: calc(100% - 130px - 1em);
+  text-align: left;
+}
+
+.carbon-poweredby {
+  position: absolute;
+  right: 0; // You can also set the position to the "left" with the value of calc(130px + carbon-text’s font size). If the font-size is 12px, you’ll want to set the left value as 142px. It’ll align the .carbon-text with .carbon-poweredby
+  bottom: 0;
+  display: block;
+  font-size: .8em;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+</style>
 
 </head>
 
@@ -170,6 +213,9 @@
        <div></div>
        <h1>Documentation</h1>
        <p>Everything you can do with Beauter</p>
+	    
+	    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=beauteroutboxcraftcom" id="_carbonads_js"></script>
+	    
     </div>
     <div class=
     " _alignCenter _force-full-width _hide-desktop _hide-widescreen _hide-tablet"
