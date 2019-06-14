@@ -1,3 +1,5 @@
+url: "https://beauter.io"
+
 permalink: /:slug/
 collections:
   docs:
