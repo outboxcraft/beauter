@@ -1,8 +1,0 @@
-# redirect netlify sitename to your sitename for SEO purposes,
-# to avoid duplicate content.  Do this for http and https
-https://beauter.netlify.com/* https://beauter.io/:splat 301!
-http://beauter.netlify.com/* https://beauter.io/:splat 301!
-
-# also redirect http to https for your custom domain.
-# Note that netlify automatically redirects to your custom domain from the bare domain (or vice versa), so you only need one rule here.
-http://beauter.io/* https://beauter.io/:splat 301!
