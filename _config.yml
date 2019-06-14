@@ -3,3 +3,6 @@ collections:
   docs:
     output: true
     permalink: /:collection/:slug/
+
+plugins:
+ - jekyll-sitemap
