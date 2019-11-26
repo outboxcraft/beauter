@@ -8,3 +8,6 @@ collections:
 
 plugins:
  - jekyll-sitemap
+
+include: 
+  _redirects
