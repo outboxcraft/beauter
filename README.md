@@ -5,7 +5,7 @@
 
 <br>
 
-[![Join the chat at https://gitter.im/outboxcraft/beauter](https://badges.gitter.im/outboxcraft/beauter.svg)](https://gitter.im/outboxcraft/beauter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Financial Contributors on Open Collective](https://opencollective.com/beauter/all/badge.svg?label=financial+contributors)](https://opencollective.com/beauter) [![Join the chat at https://gitter.im/outboxcraft/beauter](https://badges.gitter.im/outboxcraft/beauter.svg)](https://gitter.im/outboxcraft/beauter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![Build status](https://ci.appveyor.com/api/projects/status/n5k5xkq8odcyxmec?svg=true)](https://ci.appveyor.com/project/ramdeoshubham/beauter)
@@ -49,6 +49,36 @@ Beauter has just started and needs a lot of changes to become perfect. You can m
 ## Creator
 
 Beauter is designed with ♥ by **[Shubham Ramdeo](http://ramdeoshubham.com)**.
+
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/outboxcraft/beauter/graphs/contributors"><img src="https://opencollective.com/beauter/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/beauter/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/beauter"><img src="https://opencollective.com/beauter/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/beauter/contribute)]
+
+<a href="https://opencollective.com/beauter/organization/0/website"><img src="https://opencollective.com/beauter/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/beauter/organization/1/website"><img src="https://opencollective.com/beauter/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/beauter/organization/2/website"><img src="https://opencollective.com/beauter/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/beauter/organization/3/website"><img src="https://opencollective.com/beauter/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/beauter/organization/4/website"><img src="https://opencollective.com/beauter/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/beauter/organization/5/website"><img src="https://opencollective.com/beauter/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/beauter/organization/6/website"><img src="https://opencollective.com/beauter/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/beauter/organization/7/website"><img src="https://opencollective.com/beauter/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/beauter/organization/8/website"><img src="https://opencollective.com/beauter/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/beauter/organization/9/website"><img src="https://opencollective.com/beauter/organization/9/avatar.svg"></a>
 
 ## License
 

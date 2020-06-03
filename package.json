@@ -2,9 +2,13 @@
   "name": "@outboxcraft/beauter",
   "version": "0.3.0",
   "description": "A simple framework for faster and beautiful responsive sites.",
-  "main": ["beauter.min.css", "beauter.min.js"],
+  "main": [
+    "beauter.min.css",
+    "beauter.min.js"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "opencollective-postinstall || true"
   },
   "repository": {
     "type": "git",
@@ -27,5 +31,12 @@
   "bugs": {
     "url": "https://github.com/outboxcraft/beauter/issues"
   },
-  "homepage": "http://beauter.outboxcraft.com/"
+  "homepage": "http://beauter.outboxcraft.com/",
+  "dependencies": {
+    "opencollective-postinstall": "^2.0.2"
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/beauter"
+  }
 }
