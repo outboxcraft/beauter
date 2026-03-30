@@ -1,6 +1,6 @@
 <p align="center">
-<h1 align="center"><img src="http://beauter.outboxcraft.com/img/chry.svg" width="100px">Beauter</h1><p align="center">A simple framework for faster and beautiful responsive sites<br>
-    <a href="http://beauter.outboxcraft.com"><strong>Visit Beauter &raquo;</strong></a></p>
+<h1 align="center"><img src="https://beauter.outboxcraft.com/img/chry.svg" width="100px">Beauter</h1><p align="center">A simple framework for faster and beautiful responsive sites<br>
+    <a href="https://beauter.outboxcraft.com"><strong>Visit Beauter &raquo;</strong></a></p>
 </p>
 
 <br>
@@ -40,16 +40,16 @@ Or add the files manually using the download.
 
 And its all set!
 
-To learn more, please checkout beauter [documentation](http://beauter.outboxcraft.com/docs). 
+To learn more, please checkout beauter [documentation](https://beauter.outboxcraft.com/docs). 
 
 ## Contributing
 
-Beauter has just started and needs a lot of changes to become perfect. You can make Beauter more beautiful by contributing. Please follow these [recommendations](http://beauter.outboxcraft.com/docs/methodology). You can also share Beauter with your friends or on social sites to make more people aware of it. This will help a lot.
+Beauter has just started and needs a lot of changes to become perfect. You can make Beauter more beautiful by contributing. Please follow these [recommendations](https://beauter.outboxcraft.com/docs/methodology). You can also share Beauter with your friends or on social sites to make more people aware of it. This will help a lot.
 
 ## Creator
 
-Beauter is designed with ♥ by **[Shubham Ramdeo](http://ramdeoshubham.com)**.
+Beauter is designed with ♥ by **[Shubham Ramdeo](https://ramdeoshubham.com)**.
 
 ## License
 
-Copyright 2016-present, Shubham Ramdeo. Code released under the [MIT License](https://github.com/outboxcraft/beauter/blob/master/LICENSE). Docs released under [Creative Commons](http://beauter.outboxcraft.com/docs/license).
+Copyright 2016-present, Shubham Ramdeo. Code released under the [MIT License](https://github.com/outboxcraft/beauter/blob/master/LICENSE). Docs released under [Creative Commons](https://beauter.outboxcraft.com/docs/license).

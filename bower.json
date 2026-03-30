@@ -3,7 +3,7 @@
   "description": "A simple framework for faster and beautiful responsive sites.",
   "main": ["src/beauter.css", "src/beauter.js"],
   "license": "MIT",
-  "homepage": "http://beauter.outboxcraft.com",
+  "homepage": "https://beauter.outboxcraft.com",
   "ignore": [
     "**/.*",
     "node_modules",

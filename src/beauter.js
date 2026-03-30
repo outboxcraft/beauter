@@ -1,6 +1,6 @@
 
 /*!
- * Beauter v0.3.0 (http://beauter.outboxcraft.com)
+ * Beauter v0.3.0 (https://beauter.outboxcraft.com)
  * Copyright 2016-2018 Outboxcraft
  * Licensed under MIT (https://github.com/outboxcraft/beauter/blob/master/LICENSE)
  */

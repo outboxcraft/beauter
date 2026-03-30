@@ -53,7 +53,7 @@ If you find yourself wishing for a feature that doesn't exist in Beauter yet, yo
 
 Beauter philosophy is to provide a framework that is easy to learn and rapid to use. A human-friendly simplistic design approach from scratch while being small and fast for the internet.
 
-Although Beauter follows BOL methodology for its design, you can read it here: http://bol.outboxcraft.com, but, contributing to Beauter is not limited by any convention, you can contribute with any approach.
+Although Beauter follows BOL methodology for its design, you can read it here: https://bol.outboxcraft.com, but, contributing to Beauter is not limited by any convention, you can contribute with any approach.
 
 ## How will it get processed?
 
